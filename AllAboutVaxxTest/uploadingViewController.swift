@@ -32,13 +32,13 @@ class uploadingViewController: UIViewController, UIImagePickerControllerDelegate
         let imagepicker = UIImagePickerController()
         imagepicker.delegate = self
         imagepicker.sourceType = .photoLibrary
-        imagepicker.allowsEditing = true
+        //imagepicker.allowsEditing = false
             
         present(imagepicker, animated: true, completion: nil)
     }
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-            if let image = info[.editedImage] as? UIImage
+        if let image = info[UIImagePickerController.InfoKey.originalImage]  as? UIImage
             {
                 self.UploadImage(image: image)
                 self.dismiss(animated: true, completion: nil)

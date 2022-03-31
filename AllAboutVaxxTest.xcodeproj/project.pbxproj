@@ -119,15 +119,15 @@
 				1B56820827D9191A001DAF87 /* LogInViewController.swift */,
 				1B56820A27D9193A001DAF87 /* SignUpViewController.swift */,
 				C7A4B01A27DDE44A007E50D8 /* LogoutViewController.swift */,
+				71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */,
+				71096F1027EE0ECE00C725BF /* APICallerFile.swift */,
+				71096F1627EE218D00C725BF /* NewsTableViewCell.swift */,
+				1B469DAE27EF65AC00D102DC /* uploadingViewController.swift */,
 				3CC8820627AE05EC00F6C3B1 /* Main.storyboard */,
 				3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */,
 				3CC8820B27AE05EE00F6C3B1 /* LaunchScreen.storyboard */,
 				3CC8820E27AE05EE00F6C3B1 /* Info.plist */,
 				1BD50B9627D4F3BB0016ED7C /* GoogleService-Info.plist */,
-				71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */,
-				71096F1027EE0ECE00C725BF /* APICallerFile.swift */,
-				71096F1627EE218D00C725BF /* NewsTableViewCell.swift */,
-				1B469DAE27EF65AC00D102DC /* uploadingViewController.swift */,
 			);
 			path = AllAboutVaxxTest;
 			sourceTree = "<group>";
