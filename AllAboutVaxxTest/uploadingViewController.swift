@@ -26,6 +26,9 @@ class uploadingViewController: UIViewController, UIImagePickerControllerDelegate
         PickImage()
     }
     
+    @IBOutlet var uploadStatus: UILabel!
+    
+    
     @objc
     func PickImage()
     {
@@ -35,6 +38,7 @@ class uploadingViewController: UIViewController, UIImagePickerControllerDelegate
         //imagepicker.allowsEditing = false
             
         present(imagepicker, animated: true, completion: nil)
+        uploadStatus.text = "Upload Status: Complete!"
     }
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -73,11 +77,14 @@ class uploadingViewController: UIViewController, UIImagePickerControllerDelegate
                     print("Error.")
                     return
                 }
+                let key = dataref.childByAutoId().key;
                 let urlString = url.absoluteString
                 let fileData: [String: Any] = [
-                    text: urlString as! NSObject
+                    "NameofDocument": text,
+                    "Link": urlString as! NSObject,
+                    "DocumentID": key
                 ]
-                let datanode = dataref.child(uid).childByAutoId().setValue(fileData)
+                let datanode = dataref.child(uid).child(key!).setValue(fileData)
             })
         }
     }

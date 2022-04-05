@@ -11,7 +11,7 @@ final class APICallerFile {
     static let shared = APICallerFile()
     
     struct Constrants {
-        static let healthNewsURL = URL(string: "https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=b719159a1fdb40a09a5e548afadf17db")
+        static let healthNewsURL = URL(string: "https://newsapi.org/v2/everything?q=vaccine+OR+flu+OR+covid+OR+SARS&apiKey=b719159a1fdb40a09a5e548afadf17db")
     }
     
     private init () {}

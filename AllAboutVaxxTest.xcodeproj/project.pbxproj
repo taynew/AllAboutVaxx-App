@@ -23,6 +23,9 @@
 		1BD50BA827D4F44C0016ED7C /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD50BA727D4F44C0016ED7C /* FirebaseFirestoreSwift-Beta */; };
 		1BD50BAA27D4F44C0016ED7C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD50BA927D4F44C0016ED7C /* FirebaseStorage */; };
 		1BD50BAC27D4F44C0016ED7C /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD50BAB27D4F44C0016ED7C /* FirebaseStorageSwift-Beta */; };
+		1BE758EA27FCEC1600F330DB /* vaccRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE758E927FCEC1600F330DB /* vaccRecordTableViewCell.swift */; };
+		1BE758EC27FCED2800F330DB /* recordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE758EB27FCED2800F330DB /* recordsModel.swift */; };
+		1BE758EE27FCF0DD00F330DB /* recordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE758ED27FCF0DD00F330DB /* recordsViewController.swift */; };
 		3CC8820127AE05EC00F6C3B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8820027AE05EC00F6C3B1 /* AppDelegate.swift */; };
 		3CC8820327AE05EC00F6C3B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8820227AE05EC00F6C3B1 /* SceneDelegate.swift */; };
 		3CC8820527AE05EC00F6C3B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8820427AE05EC00F6C3B1 /* ViewController.swift */; };
@@ -55,6 +58,9 @@
 		1B56820827D9191A001DAF87 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		1B56820A27D9193A001DAF87 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1BD50B9627D4F3BB0016ED7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1BE758E927FCEC1600F330DB /* vaccRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaccRecordTableViewCell.swift; sourceTree = "<group>"; };
+		1BE758EB27FCED2800F330DB /* recordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsModel.swift; sourceTree = "<group>"; };
+		1BE758ED27FCF0DD00F330DB /* recordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsViewController.swift; sourceTree = "<group>"; };
 		3CC881FD27AE05EC00F6C3B1 /* AllAboutVaxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllAboutVaxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC8820027AE05EC00F6C3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC8820227AE05EC00F6C3B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +129,9 @@
 				71096F1027EE0ECE00C725BF /* APICallerFile.swift */,
 				71096F1627EE218D00C725BF /* NewsTableViewCell.swift */,
 				1B469DAE27EF65AC00D102DC /* uploadingViewController.swift */,
+				1BE758E927FCEC1600F330DB /* vaccRecordTableViewCell.swift */,
+				1BE758EB27FCED2800F330DB /* recordsModel.swift */,
+				1BE758ED27FCF0DD00F330DB /* recordsViewController.swift */,
 				3CC8820627AE05EC00F6C3B1 /* Main.storyboard */,
 				3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */,
 				3CC8820B27AE05EE00F6C3B1 /* LaunchScreen.storyboard */,
@@ -230,12 +239,15 @@
 			files = (
 				3CC8820527AE05EC00F6C3B1 /* ViewController.swift in Sources */,
 				71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */,
+				1BE758EC27FCED2800F330DB /* recordsModel.swift in Sources */,
 				1B469DAF27EF65AC00D102DC /* uploadingViewController.swift in Sources */,
 				71096F0F27EE0B3000C725BF /* NeewsFeedViewController.swift in Sources */,
+				1BE758EA27FCEC1600F330DB /* vaccRecordTableViewCell.swift in Sources */,
 				1B56820B27D9193A001DAF87 /* SignUpViewController.swift in Sources */,
 				71096F1127EE0ECE00C725BF /* APICallerFile.swift in Sources */,
 				3CC8820127AE05EC00F6C3B1 /* AppDelegate.swift in Sources */,
 				1B56820927D9191A001DAF87 /* LogInViewController.swift in Sources */,
+				1BE758EE27FCF0DD00F330DB /* recordsViewController.swift in Sources */,
 				3CC8820327AE05EC00F6C3B1 /* SceneDelegate.swift in Sources */,
 				1B13E9DA27C159C700F02EAD /* HealthScreeningVC.swift in Sources */,
 				C7A4B01B27DDE44A007E50D8 /* LogoutViewController.swift in Sources */,
