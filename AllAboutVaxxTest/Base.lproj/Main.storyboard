@@ -2267,6 +2267,15 @@ Nasal: congestion or sneezing
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIU-bZ-VcK">
+                                <rect key="frame" x="311" y="73" width="67" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="sortByLocationPressed:" destination="yCv-UO-PIs" eventType="touchUpInside" id="66Y-SU-zoA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0ZO-O9-0vf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2280,6 +2289,7 @@ Nasal: congestion or sneezing
                     <navigationItem key="navigationItem" id="yir-Yx-FqH"/>
                     <connections>
                         <outlet property="clinicTable" destination="JuK-ja-MEe" id="VnC-Q5-cPI"/>
+                        <outlet property="sortPressed" destination="vIU-bZ-VcK" id="BdY-wE-leM"/>
                         <segue destination="QTx-Gv-p8K" kind="show" id="Ho3-KS-tgn"/>
                     </connections>
                 </viewController>
