@@ -46,7 +46,12 @@ class clinicListViewController: UIViewController, UITableViewDataSource, UITable
     
     var data: [Location] = [
         Location(clinicName: "Elmhurst Hospital Center", address: "79-01 Broadway, Queens, NY 11373", phoneNumber: "+1 718 334 4000", website: "https://www.nychealthandhospitals.org/elmhurst", appointmentLink: "Call the clinic for an appointment.", coordinates: CLLocationCoordinate2D(latitude:40.744647 , longitude: -73.886196)),
-        Location(clinicName: "Skycare Pharmacy", address: "85-29 Grand Avenue, Queens", phoneNumber: "(718) 685-2678", website: "N/A", appointmentLink: "Call the clinic for an appointment.", coordinates: CLLocationCoordinate2D(latitude:40.735700 , longitude: -73.881430))
+        Location(clinicName: "Skycare Pharmacy", address: "85-29 Grand Avenue, Queens", phoneNumber: "(718) 685-2678", website: "N/A", appointmentLink: "Call the pharmacy for an appointment.", coordinates: CLLocationCoordinate2D(latitude:40.735700 , longitude: -73.881430)),
+        Location(clinicName: "Queens Hospital Center", address: "82-68 164th St, Queens, NY 11432", phoneNumber: "(718) 883-3000", website: "https://www.nychealthandhospitals.org/queens/", appointmentLink: "Call the clinic for an appointment.", coordinates: CLLocationCoordinate2D(latitude: 40.7172699 , longitude: -73.8043545)),
+        Location(clinicName: "Estates Pharmacy & Surgical", address: "169-01 Hillside Avenue, Queens, NY 11432", phoneNumber: "(718) 739-0311", website: "https://www.estatespharmacy.com/", appointmentLink: "Call the pharmacy for an appointment.", coordinates: CLLocationCoordinate2D(latitude: 40.711130 , longitude: -73.792680)),
+        Location(clinicName: "Harlem United's The Nest Community Health Center", address: "169 W 133rd St, New York, NY 10030", phoneNumber: "(646) 762-4950", website: "https://www.harlemunited.org/the-nest-is-now-open/", appointmentLink: "Call the clinic for an appointment.", coordinates: CLLocationCoordinate2D(latitude: 40.813961 , longitude: -73.943909)),
+        Location(clinicName: "NYC Health + Hospitals/Gotham Health, Sydenham", address: "264 W 118th St, Manhattan, NY 10026", phoneNumber: "(844) 692-4692", website: "nychhc.org", appointmentLink: "Call the clinic for an appointment.", coordinates: CLLocationCoordinate2D(latitude: 40.8051471 , longitude: -73.9532666))
+        
     ]
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
