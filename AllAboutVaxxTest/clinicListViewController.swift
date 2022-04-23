@@ -6,18 +6,33 @@
 //
 
 import UIKit
-import UIKit
 import MapKit
 import CoreLocation
 
-class clinicListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+class clinicListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, CLLocationManagerDelegate {
+    
+    let locationManager = CLLocationManager()
+    
     @IBOutlet weak var clinicTable: UITableView!
+    
+    @IBOutlet weak var sortPressed: UIButton!
+    
+    
+    @IBAction func sortByLocationPressed(_ sender: Any) {
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+            locationManager.startUpdatingLocation()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         clinicTable.dataSource = self
         clinicTable.delegate = self
+        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
     }
     
     struct Location {
@@ -29,10 +44,17 @@ class clinicListViewController: UIViewController, UITableViewDataSource, UITable
         let coordinates: CLLocationCoordinate2D
     }
     
-    let data: [Location] = [
+    var data: [Location] = [
         Location(clinicName: "Elmhurst Hospital Center", address: "79-01 Broadway, Queens, NY 11373", phoneNumber: "+1 718 334 4000", website: "https://www.nychealthandhospitals.org/elmhurst", appointmentLink: "Call the clinic for an appointment.", coordinates: CLLocationCoordinate2D(latitude:40.744647 , longitude: -73.886196)),
         Location(clinicName: "Skycare Pharmacy", address: "85-29 Grand Avenue, Queens", phoneNumber: "(718) 685-2678", website: "N/A", appointmentLink: "Call the clinic for an appointment.", coordinates: CLLocationCoordinate2D(latitude:40.735700 , longitude: -73.881430))
     ]
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
+        var userl = MKMapPoint.init(locValue)
+        self.data.sort(by:{userl.distance(to: MKMapPoint.init($0.coordinates))<userl.distance(to: MKMapPoint.init($1.coordinates))})
+        clinicTable.reloadData()
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
