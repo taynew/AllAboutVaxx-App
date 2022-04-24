@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Please allow the AllAboutVaxx to access your location for the appointment finder featiure.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Please allow the AllAboutVaxx to access your location for the appointment finder featiure.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Please allow the AllAboutVaxx to access your location for the appointment finder featiure.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
