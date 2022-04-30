@@ -38,6 +38,7 @@
 		71096F0F27EE0B3000C725BF /* NeewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */; };
 		71096F1127EE0ECE00C725BF /* APICallerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1027EE0ECE00C725BF /* APICallerFile.swift */; };
 		71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1627EE218D00C725BF /* NewsTableViewCell.swift */; };
+		710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EAC0F281DB63000FFD021 /* InformationViewController.swift */; };
 		C7A4B01B27DDE44A007E50D8 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4B01A27DDE44A007E50D8 /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeewsFeedViewController.swift; sourceTree = "<group>"; };
 		71096F1027EE0ECE00C725BF /* APICallerFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallerFile.swift; sourceTree = "<group>"; };
 		71096F1627EE218D00C725BF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		710EAC0F281DB63000FFD021 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		C7A4B01A27DDE44A007E50D8 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +143,7 @@
 				1B2CCA5E28133D0700C7F173 /* sourceToDestinationMapViewController.swift */,
 				1B2CCA6428137F6900C7F173 /* clinicListViewController.swift */,
 				1B2CCA662813804400C7F173 /* clinicCellTableViewCell.swift */,
+				710EAC0F281DB63000FFD021 /* InformationViewController.swift */,
 				3CC8820627AE05EC00F6C3B1 /* Main.storyboard */,
 				3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */,
 				3CC8820B27AE05EE00F6C3B1 /* LaunchScreen.storyboard */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B2CCA6528137F6900C7F173 /* clinicListViewController.swift in Sources */,
+				710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */,
 				3CC8820527AE05EC00F6C3B1 /* ViewController.swift in Sources */,
 				71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */,
 				1BE758EC27FCED2800F330DB /* recordsModel.swift in Sources */,
