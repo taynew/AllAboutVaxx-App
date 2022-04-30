@@ -33,6 +33,8 @@ class ResultScreenViewController: UIViewController {
     
     @IBOutlet weak var QuizResult: UILabel!
     
+    
+    
     /*
     // MARK: - Navigation
 
