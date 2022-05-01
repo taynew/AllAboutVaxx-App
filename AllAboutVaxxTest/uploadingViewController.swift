@@ -15,6 +15,7 @@ class uploadingViewController: UIViewController, UIImagePickerControllerDelegate
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Vaccination Record"
 
         // Do any additional setup after loading the view.
     }

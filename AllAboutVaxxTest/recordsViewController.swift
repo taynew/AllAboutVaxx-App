@@ -50,6 +50,7 @@ class recordsViewController: UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
         let uid = Auth.auth().currentUser!.uid
         let docRef = Database.database().reference().child(uid)
+        title = "Vaccination Record"
         
         docRef.observe(DataEventType.value, with: { (snapshot) in
             if snapshot.childrenCount > 0 {

@@ -29,7 +29,7 @@ class NeewsFeedViewController: UIViewController, UITableViewDelegate, UITableVie
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "News"
+        title = "News Feed"
         view.addSubview(tableView)
         tableView.delegate = self
         tableView.dataSource = self
