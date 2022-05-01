@@ -12,6 +12,12 @@ class vaccRecordTableViewCell: UITableViewCell {
     
     @IBOutlet weak var docName: UILabel!
     
+    @IBOutlet weak var date: UILabel!
+    
+    @IBOutlet weak var clinic: UILabel!
+    
+    @IBOutlet weak var delete: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
