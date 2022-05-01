@@ -1964,13 +1964,6 @@ Nasal: congestion or sneezing
                                     <action selector="uploadTapped:" destination="PbZ-kP-1JS" eventType="touchUpInside" id="JPq-lo-gbB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter the name of the vaccination record you want to upload:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpi-W7-WSh">
-                                <rect key="frame" x="66" y="174" width="297" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View your vaccination records here:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0s-K7-yMN">
                                 <rect key="frame" x="66" y="624" width="271" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2001,10 +1994,10 @@ Nasal: congestion or sneezing
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vaccination Records" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XH-dP-CjZ">
-                                <rect key="frame" x="36" y="104" width="357" height="62"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter the name of the vaccination record you want to upload:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpi-W7-WSh">
+                                <rect key="frame" x="66" y="138" width="297" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2015,9 +2008,7 @@ Nasal: congestion or sneezing
                     <tabBarItem key="tabBarItem" title="   Vaccination Record" image="doc" catalog="system" id="iNT-bk-xtf">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="R3d-Q4-b4e"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="xgp-Pj-8IT"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -2067,13 +2058,6 @@ Nasal: congestion or sneezing
                                     <outlet property="delegate" destination="xKx-ZI-GL9" id="hy1-bJ-1YN"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vaccination Records" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7D-Al-1N5">
-                                <rect key="frame" x="20" y="82" width="357" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N2a-KD-j71"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2093,11 +2077,11 @@ Nasal: congestion or sneezing
             </objects>
             <point key="canvasLocation" x="5914" y="-1687"/>
         </scene>
-        <!--Item-->
+        <!--Appointment Center-->
         <scene sceneID="ha5-fR-vfH">
             <objects>
                 <navigationController id="jB5-6v-FDi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Qjm-9k-elN"/>
+                    <tabBarItem key="tabBarItem" title="Appointment Center" image="map" catalog="system" id="Qjm-9k-elN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Op4-GF-nEc">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2176,15 +2160,8 @@ Nasal: congestion or sneezing
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vaccination Sites" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXL-ev-E7I">
-                                <rect key="frame" x="20" y="80" width="244" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIU-bZ-VcK">
-                                <rect key="frame" x="263" y="111" width="145" height="32"/>
+                                <rect key="frame" x="142" y="108" width="145" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Near My Location">
@@ -3028,7 +3005,7 @@ infectious?</string>
                         <viewLayoutGuide key="safeArea" id="o7c-Ln-JXJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Health Screening" image="checkmark.square.fill" catalog="system" id="BMn-mm-VOk">
+                    <tabBarItem key="tabBarItem" title="Health Screening" image="checkmark.rectangle" catalog="system" id="BMn-mm-VOk">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="3ZW-km-gao"/>
@@ -3037,11 +3014,11 @@ infectious?</string>
             </objects>
             <point key="canvasLocation" x="-642" y="-3778"/>
         </scene>
-        <!--Item-->
+        <!--Health Screening-->
         <scene sceneID="LzZ-MU-HFL">
             <objects>
                 <navigationController id="YUF-Sr-2TS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="mEG-c8-tOP"/>
+                    <tabBarItem key="tabBarItem" title="Health Screening" image="checkmark.rectangle" catalog="system" id="mEG-c8-tOP"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IS4-LX-qo5">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3054,11 +3031,11 @@ infectious?</string>
             </objects>
             <point key="canvasLocation" x="-1546" y="-3778"/>
         </scene>
-        <!--Item-->
+        <!--Vaccination Record-->
         <scene sceneID="9mk-kP-fAc">
             <objects>
                 <navigationController id="GdP-w7-Wu8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="nMk-9e-3te"/>
+                    <tabBarItem key="tabBarItem" title="Vaccination Record" image="doc" catalog="system" id="nMk-9e-3te"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0cX-Gg-QZV">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3190,7 +3167,7 @@ infectious?</string>
     </scenes>
     <resources>
         <image name="books.vertical.fill" catalog="system" width="128" height="109"/>
-        <image name="checkmark.square.fill" catalog="system" width="128" height="114"/>
+        <image name="checkmark.rectangle" catalog="system" width="128" height="93"/>
         <image name="doc" catalog="system" width="115" height="128"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="map" catalog="system" width="128" height="110"/>
