@@ -20,6 +20,11 @@ class recordsViewController: UIViewController, UITableViewDelegate, UITableViewD
         return docNameList.count
     }
     
+    
+    @IBAction func reloadTapped(_ sender: Any) {
+        self.recordsTable.reloadData()
+    }
+    
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! vaccRecordTableViewCell
         let docu: recordsModel
@@ -27,11 +32,40 @@ class recordsViewController: UIViewController, UITableViewDelegate, UITableViewD
         docu = docNameList[indexPath.row]
         
         cell.docName.text = docu.docName
+        cell.date.text = docu.docDate
+        cell.clinic.text = docu.docClinic
+        cell.delete.tag = indexPath.row
+        cell.delete.addTarget(self, action: #selector(deleteDoc), for: .touchUpInside)
         //if let url = URL(string: docu.docLink!)
                //{
                    //UIApplication.shared.open(url)
                //}
         return cell
+    }
+    
+    @objc func deleteDoc(sender: UIButton) {
+        let indexPath1 = IndexPath(row:sender.tag,section: 0)
+        let selectedDocument = docNameList[indexPath1.row]
+        let uid = Auth.auth().currentUser!.uid
+        let docRef = Database.database().reference().child(uid)
+        let photoRef = Storage.storage().reference().child("users").child(uid).child(selectedDocument.docName!)
+        let alertController = UIAlertController(title: "Example", message: "Are you sure you want to delete the document?", preferredStyle: .alert)
+        let deleteAction = UIAlertAction(title: "Delete", style: .default){(_) in
+            docRef.child(selectedDocument.docId!).setValue(nil)
+            photoRef.delete { error in
+              if let error = error {
+                // Uh-oh, an error occurred!
+              } else {
+                // File deleted successfully
+              }
+            }
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .default) {(_) in
+            return
+        }
+        alertController.addAction(deleteAction)
+        alertController.addAction(cancelAction)
+        present(alertController, animated:true, completion: nil)
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -61,8 +95,10 @@ class recordsViewController: UIViewController, UITableViewDelegate, UITableViewD
                     let DocumentID = docObject?["DocumentID"]
                     let NameofDocument = docObject?["NameofDocument"]
                     let Link = docObject?["Link"]
+                    let Clinic = docObject?["Clinic"]
+                    let Date = docObject?["Date"]
                     
-                    let document = recordsModel(docId: DocumentID as! String?, docName: NameofDocument as! String?, docLink: Link as! String?)
+                    let document = recordsModel(docId: DocumentID as! String?, docName: NameofDocument as! String?, docLink: Link as! String?, docDate: Date as! String?, docClinic: Clinic as! String?)
                     
                     self.docNameList.append(document)
                 }
@@ -76,5 +112,9 @@ class recordsViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     @IBOutlet weak var recordsTable: UITableView!
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 175
+    }
     
 }
