@@ -1,54 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NaH-l6-HDc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NaH-l6-HDc">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="f21-H6-IOF">
-            <objects>
-                <viewController id="61z-Cu-Qns" customClass="ViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CNt-aj-lqw">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecy-bQ-mlx">
-                                <rect key="frame" x="94" y="692" width="234" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Get Started"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Get Started">
-                                            <attributes>
-                                                <color key="NSColor" red="0.96072309041760628" green="0.96072309041760628" blue="0.96072309041760628" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="36" name="Arial-BoldMT"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="HMA-M6-Rx2" kind="show" id="1Pw-GH-FjI"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Main_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ao9-3X-HCZ">
-                                <rect key="frame" x="91" y="326" width="240" height="224"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="3E7-XX-GWt"/>
-                        <color key="backgroundColor" red="0.37321192539731485" green="0.22465653953252518" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="FmE-88-NLq"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pbW-Dv-UcL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3761.2149532710278" y="-118.5745140388769"/>
-        </scene>
         <!--Log In View Controller-->
         <scene sceneID="zo6-Mk-liT">
             <objects>
@@ -58,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xn7-Dt-P0I">
-                                <rect key="frame" x="86" y="396" width="289" height="34"/>
+                                <rect key="frame" x="74" y="395" width="289" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -82,7 +41,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Don't have an account yet? Create an account"/>
                                 <connections>
-                                    <action selector="createAccountTapped:" destination="HMA-M6-Rx2" eventType="touchUpInside" id="EHb-ul-Dek"/>
+                                    <segue destination="yJR-oB-NUb" kind="show" id="Dye-Nm-cyv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYn-K1-5H3">
@@ -101,10 +60,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-05-06 at 9.24.07 AM" translatesAutoresizingMaskIntoConstraints="NO" id="lqG-zn-GiY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="lqG-zn-GiY">
                                 <rect key="frame" x="94" y="189" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgf-6l-LZl">
+                                <rect key="frame" x="53" y="758" width="322" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Forgot Password?"/>
+                                <connections>
+                                    <segue destination="RFk-N9-9Xn" kind="show" id="nEn-HQ-gPZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nZs-up-bia"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -147,15 +115,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKG-Jy-TYq">
-                                <rect key="frame" x="98" y="643" width="233" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Already have an account? Log in"/>
-                                <connections>
-                                    <action selector="alreadyHaveAnAccountTapped:" destination="yJR-oB-NUb" eventType="touchUpInside" id="xeF-VH-MUi"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YoL-gW-nPG">
                                 <rect key="frame" x="148" y="568" width="132" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -165,7 +124,7 @@
                                     <action selector="signUpTapped:" destination="yJR-oB-NUb" eventType="touchUpInside" id="pg3-08-8Xy"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-05-06 at 9.24.07 AM" translatesAutoresizingMaskIntoConstraints="NO" id="SoM-EA-BMF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="SoM-EA-BMF">
                                 <rect key="frame" x="98" y="187" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -173,6 +132,7 @@
                         <viewLayoutGuide key="safeArea" id="IzJ-T8-dN5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="WPB-B0-eKB"/>
                     <connections>
                         <outlet property="email" destination="Rhs-cG-kqc" id="hnX-TZ-1L6"/>
                         <outlet property="password" destination="bfY-vb-OtP" id="d9c-xQ-1x0"/>
@@ -180,41 +140,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emS-uQ-4UG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5862.6168224299063" y="-119.22246220302377"/>
+            <point key="canvasLocation" x="5752" y="-119"/>
         </scene>
-        <!--Logout View Controller-->
-        <scene sceneID="oqO-by-Qkr">
+        <!--Password Reset View Controller-->
+        <scene sceneID="ncf-D0-R7j">
             <objects>
-                <viewController storyboardIdentifier="loginHome" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HeB-rX-cpa" customClass="LogoutViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oOk-gp-UEX">
+                <viewController id="RFk-N9-9Xn" customClass="passwordResetViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xsI-wA-5tU">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9C-i4-UPt">
-                                <rect key="frame" x="36" y="44" width="70" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Logout" buttonSize="medium"/>
-                                <connections>
-                                    <action selector="LogoutButton:" destination="HeB-rX-cpa" eventType="touchUpInside" id="siL-Ps-8Mt"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Go to the main menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxY-Uu-tIG">
-                                <rect key="frame" x="122" y="336" width="184" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forgot Password?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6S-HI-CVa">
+                                <rect key="frame" x="114" y="67" width="201" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Put you email address below and a password reset email will be sent to you." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzR-yL-5es">
+                                <rect key="frame" x="57" y="312" width="316" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l6P-vN-Z0q">
+                                <rect key="frame" x="86" y="479" width="257" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="hkx-9n-D2n">
+                                <rect key="frame" x="94" y="191" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYR-ty-cv9">
+                                <rect key="frame" x="140" y="574" width="148" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Send Email"/>
+                                <connections>
+                                    <action selector="sendEmailTaped:" destination="RFk-N9-9Xn" eventType="touchUpInside" id="Gax-EP-Yob"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="o4u-YF-OWe"/>
+                        <viewLayoutGuide key="safeArea" id="HaZ-xY-Sq6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="y4w-JM-ABW"/>
+                    <connections>
+                        <outlet property="emailAddress" destination="l6P-vN-Z0q" id="8KY-wh-kSW"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ymk-dV-NWm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cBA-al-IVT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9084" y="-110"/>
+            <point key="canvasLocation" x="6689.7196261682238" y="-119.22246220302377"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="waY-DV-7tJ">
@@ -2015,7 +1995,7 @@ Nasal: congestion or sneezing
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zs4-CE-lIy">
-                                <rect key="frame" x="76" y="387" width="131" height="34"/>
+                                <rect key="frame" x="76" y="376" width="131" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="photo" catalog="system" title="Image"/>
@@ -2036,12 +2016,21 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEK-Pa-EXg">
-                                <rect key="frame" x="221" y="387" width="131" height="34"/>
+                                <rect key="frame" x="215" y="375" width="131" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="camera" catalog="system" title="Camera"/>
                                 <connections>
                                     <action selector="cameraTapped:" destination="PbZ-kP-1JS" eventType="touchUpInside" id="aXQ-eP-xEq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRe-Ws-Eub">
+                                <rect key="frame" x="144" y="419" width="131" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="paperclip" catalog="system" title="PDF"/>
+                                <connections>
+                                    <action selector="documenTUploadTapped:" destination="PbZ-kP-1JS" eventType="touchUpInside" id="5ZG-cb-IrJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2106,7 +2095,7 @@ Nasal: congestion or sneezing
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQ7-Ev-zhA">
-                                                    <rect key="frame" x="10" y="116" width="156" height="31"/>
+                                                    <rect key="frame" x="10" y="116" width="406" height="31"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title="Delete Document"/>
@@ -2144,13 +2133,7 @@ Nasal: congestion or sneezing
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ygv-4R-nvV">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="dJ2-av-2Ir">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="X3s-dw-CVS">
-                                <rect key="frame" x="286.66666666666669" y="5" width="121.33333333333331" height="34.333333333333336"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reload Table"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="refresh" id="dJ2-av-2Ir">
                             <connections>
                                 <action selector="reloadTapped:" destination="xKx-ZI-GL9" id="lGC-ge-qQU"/>
                             </connections>
@@ -2248,7 +2231,7 @@ Nasal: congestion or sneezing
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIU-bZ-VcK">
-                                <rect key="frame" x="142" y="108" width="145" height="32"/>
+                                <rect key="frame" x="142" y="98" width="145" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Near My Location">
@@ -3146,12 +3129,12 @@ infectious?</string>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="61z-Cu-Qns" kind="relationship" relationship="rootViewController" id="ghh-DD-Y1U"/>
+                        <segue destination="HMA-M6-Rx2" kind="relationship" relationship="rootViewController" id="wtp-jf-n56"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="biY-TA-FwQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2861.2149532710278" y="-118.5745140388769"/>
+            <point key="canvasLocation" x="3684" y="-119"/>
         </scene>
         <!--mainMenu-->
         <scene sceneID="jlt-qy-Cea">
@@ -3253,15 +3236,15 @@ infectious?</string>
         </scene>
     </scenes>
     <resources>
-        <image name="Main_logo.png" width="900" height="900"/>
-        <image name="Screen Shot 2022-05-06 at 9.24.07 AM" width="144" height="136"/>
         <image name="books.vertical.fill" catalog="system" width="128" height="109"/>
         <image name="camera" catalog="system" width="128" height="94"/>
         <image name="checkmark.rectangle" catalog="system" width="128" height="93"/>
         <image name="doc" catalog="system" width="115" height="128"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="logo-1" width="1200" height="1200"/>
         <image name="map" catalog="system" width="128" height="110"/>
         <image name="newspaper" catalog="system" width="128" height="111"/>
+        <image name="paperclip" catalog="system" width="121" height="128"/>
         <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <image name="photo" catalog="system" width="128" height="93"/>
         <image name="questionmark.app.fill" catalog="system" width="128" height="114"/>

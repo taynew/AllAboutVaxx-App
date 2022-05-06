@@ -13,7 +13,7 @@ class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.hideKeyboardWhenTappedAround()
         // Do any additional setup after loading the view.
     }
     
@@ -35,13 +35,6 @@ class SignUpViewController: UIViewController {
         signUP()
     }
     
-    @IBAction func alreadyHaveAnAccountTapped(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "logIn")
-        vc.modalPresentationStyle = .overFullScreen
-        present(vc, animated: true)
-    }
-    
     func signUP() {
         Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (authResult, error) in
             guard let user = authResult?.user, error == nil else {
@@ -49,10 +42,9 @@ class SignUpViewController: UIViewController {
                 return
             }
             
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "mainMenu")
-            vc?.modalPresentationStyle = .overFullScreen
-            self.present(vc!, animated: true)
+            let alert = UIAlertController(title: "Confirmation", message: "Your account has been created.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Go Back", style: .cancel, handler: nil))
+            self.present(alert, animated: true)
         }
     }
 }
