@@ -3176,11 +3176,11 @@ infectious?</string>
             </objects>
             <point key="canvasLocation" x="908" y="-803"/>
         </scene>
-        <!--Info-->
+        <!--Information-->
         <scene sceneID="hIt-eB-DwL">
             <objects>
                 <navigationController id="zL8-Cf-6fF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Info" image="info.circle" catalog="system" id="0wp-3h-5j2">
+                    <tabBarItem key="tabBarItem" title="Information" image="info.circle" catalog="system" id="0wp-3h-5j2">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="q5h-ab-pEO">
