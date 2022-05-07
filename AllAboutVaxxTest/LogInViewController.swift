@@ -9,15 +9,30 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
+
+    }
+
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}
+
 class LogInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.hideKeyboardWhenTappedAround()
         // Do any additional setup after loading the view.
     }
     
+    
     @IBOutlet var warning: UILabel!
+    
     //override func viewDidAppear(_ animated: Bool) {
         //checkUserInfo()
     //}
@@ -30,12 +45,6 @@ class LogInViewController: UIViewController {
         validateFields()
     }
     
-    @IBAction func createAccountTapped(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "signUp")
-        vc.modalPresentationStyle = .overFullScreen
-        present(vc, animated: true)
-    }
     
     func validateFields() {
         if (email.text?.isEmpty == true) {

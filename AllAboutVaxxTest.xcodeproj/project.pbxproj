@@ -29,6 +29,9 @@
 		1BE758EA27FCEC1600F330DB /* vaccRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE758E927FCEC1600F330DB /* vaccRecordTableViewCell.swift */; };
 		1BE758EC27FCED2800F330DB /* recordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE758EB27FCED2800F330DB /* recordsModel.swift */; };
 		1BE758EE27FCF0DD00F330DB /* recordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE758ED27FCF0DD00F330DB /* recordsViewController.swift */; };
+		1BEE865028257065001290D8 /* passwordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE864F28257065001290D8 /* passwordResetViewController.swift */; };
+		332B24BB28249E5300559FB4 /* Main_background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 332B24B928249E5200559FB4 /* Main_background.jpeg */; };
+		332B24BE2824A17F00559FB4 /* Main_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 332B24BD2824A17C00559FB4 /* Main_logo.png */; };
 		3CC8820127AE05EC00F6C3B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8820027AE05EC00F6C3B1 /* AppDelegate.swift */; };
 		3CC8820327AE05EC00F6C3B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8820227AE05EC00F6C3B1 /* SceneDelegate.swift */; };
 		3CC8820527AE05EC00F6C3B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8820427AE05EC00F6C3B1 /* ViewController.swift */; };
@@ -39,7 +42,7 @@
 		71096F1127EE0ECE00C725BF /* APICallerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1027EE0ECE00C725BF /* APICallerFile.swift */; };
 		71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1627EE218D00C725BF /* NewsTableViewCell.swift */; };
 		710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EAC0F281DB63000FFD021 /* InformationViewController.swift */; };
-		C7A4B01B27DDE44A007E50D8 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4B01A27DDE44A007E50D8 /* LogoutViewController.swift */; };
+		71310C9E2826EC7400037D99 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71310C9D2826EC7300037D99 /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +71,9 @@
 		1BE758E927FCEC1600F330DB /* vaccRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaccRecordTableViewCell.swift; sourceTree = "<group>"; };
 		1BE758EB27FCED2800F330DB /* recordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsModel.swift; sourceTree = "<group>"; };
 		1BE758ED27FCF0DD00F330DB /* recordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsViewController.swift; sourceTree = "<group>"; };
+		1BEE864F28257065001290D8 /* passwordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordResetViewController.swift; sourceTree = "<group>"; };
+		332B24B928249E5200559FB4 /* Main_background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Main_background.jpeg; sourceTree = "<group>"; };
+		332B24BD2824A17C00559FB4 /* Main_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main_logo.png; sourceTree = "<group>"; };
 		3CC881FD27AE05EC00F6C3B1 /* AllAboutVaxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllAboutVaxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC8820027AE05EC00F6C3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC8820227AE05EC00F6C3B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +87,7 @@
 		71096F1027EE0ECE00C725BF /* APICallerFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallerFile.swift; sourceTree = "<group>"; };
 		71096F1627EE218D00C725BF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		710EAC0F281DB63000FFD021 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
-		C7A4B01A27DDE44A007E50D8 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		71310C9D2826EC7300037D99 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +138,7 @@
 				1B13E9DB27C15B3100F02EAD /* ResultScreenViewController.swift */,
 				1B56820827D9191A001DAF87 /* LogInViewController.swift */,
 				1B56820A27D9193A001DAF87 /* SignUpViewController.swift */,
-				C7A4B01A27DDE44A007E50D8 /* LogoutViewController.swift */,
+				1BEE864F28257065001290D8 /* passwordResetViewController.swift */,
 				71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */,
 				71096F1027EE0ECE00C725BF /* APICallerFile.swift */,
 				71096F1627EE218D00C725BF /* NewsTableViewCell.swift */,
@@ -144,8 +150,11 @@
 				1B2CCA6428137F6900C7F173 /* clinicListViewController.swift */,
 				1B2CCA662813804400C7F173 /* clinicCellTableViewCell.swift */,
 				710EAC0F281DB63000FFD021 /* InformationViewController.swift */,
+				71310C9D2826EC7300037D99 /* AboutUsViewController.swift */,
 				3CC8820627AE05EC00F6C3B1 /* Main.storyboard */,
 				3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */,
+				332B24BD2824A17C00559FB4 /* Main_logo.png */,
+				332B24B928249E5200559FB4 /* Main_background.jpeg */,
 				3CC8820B27AE05EE00F6C3B1 /* LaunchScreen.storyboard */,
 				3CC8820E27AE05EE00F6C3B1 /* Info.plist */,
 				1BD50B9627D4F3BB0016ED7C /* GoogleService-Info.plist */,
@@ -237,6 +246,8 @@
 			files = (
 				3CC8820D27AE05EE00F6C3B1 /* LaunchScreen.storyboard in Resources */,
 				1BD50B9727D4F3BB0016ED7C /* GoogleService-Info.plist in Resources */,
+				332B24BB28249E5300559FB4 /* Main_background.jpeg in Resources */,
+				332B24BE2824A17F00559FB4 /* Main_logo.png in Resources */,
 				3CC8820A27AE05EE00F6C3B1 /* Assets.xcassets in Resources */,
 				3CC8820827AE05EC00F6C3B1 /* Main.storyboard in Resources */,
 			);
@@ -249,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71310C9E2826EC7400037D99 /* AboutUsViewController.swift in Sources */,
 				1B2CCA6528137F6900C7F173 /* clinicListViewController.swift in Sources */,
 				710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */,
 				3CC8820527AE05EC00F6C3B1 /* ViewController.swift in Sources */,
+				1BEE865028257065001290D8 /* passwordResetViewController.swift in Sources */,
 				71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */,
 				1BE758EC27FCED2800F330DB /* recordsModel.swift in Sources */,
 				1B469DAF27EF65AC00D102DC /* uploadingViewController.swift in Sources */,
@@ -266,7 +279,6 @@
 				1BE758EE27FCF0DD00F330DB /* recordsViewController.swift in Sources */,
 				3CC8820327AE05EC00F6C3B1 /* SceneDelegate.swift in Sources */,
 				1B13E9DA27C159C700F02EAD /* HealthScreeningVC.swift in Sources */,
-				C7A4B01B27DDE44A007E50D8 /* LogoutViewController.swift in Sources */,
 				1B13E9DC27C15B3100F02EAD /* ResultScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
