@@ -42,6 +42,7 @@
 		71096F1127EE0ECE00C725BF /* APICallerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1027EE0ECE00C725BF /* APICallerFile.swift */; };
 		71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1627EE218D00C725BF /* NewsTableViewCell.swift */; };
 		710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EAC0F281DB63000FFD021 /* InformationViewController.swift */; };
+		71310C9E2826EC7400037D99 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71310C9D2826EC7300037D99 /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +87,7 @@
 		71096F1027EE0ECE00C725BF /* APICallerFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallerFile.swift; sourceTree = "<group>"; };
 		71096F1627EE218D00C725BF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		710EAC0F281DB63000FFD021 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		71310C9D2826EC7300037D99 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				1B2CCA6428137F6900C7F173 /* clinicListViewController.swift */,
 				1B2CCA662813804400C7F173 /* clinicCellTableViewCell.swift */,
 				710EAC0F281DB63000FFD021 /* InformationViewController.swift */,
+				71310C9D2826EC7300037D99 /* AboutUsViewController.swift */,
 				3CC8820627AE05EC00F6C3B1 /* Main.storyboard */,
 				3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */,
 				332B24BD2824A17C00559FB4 /* Main_logo.png */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71310C9E2826EC7400037D99 /* AboutUsViewController.swift in Sources */,
 				1B2CCA6528137F6900C7F173 /* clinicListViewController.swift in Sources */,
 				710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */,
 				3CC8820527AE05EC00F6C3B1 /* ViewController.swift in Sources */,
@@ -426,7 +430,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FZHSVDALWF;
+				DEVELOPMENT_TEAM = UP65C34UXY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AllAboutVaxxTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AllAboutVaxx;
@@ -462,7 +466,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FZHSVDALWF;
+				DEVELOPMENT_TEAM = UP65C34UXY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AllAboutVaxxTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AllAboutVaxx;

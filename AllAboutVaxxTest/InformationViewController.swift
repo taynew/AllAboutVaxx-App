@@ -13,6 +13,7 @@ class InformationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Information"
 
         // Do any additional setup after loading the view.
     }
