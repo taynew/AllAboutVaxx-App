@@ -1876,28 +1876,43 @@ Nasal: congestion or sneezing
         <!--About US-->
         <scene sceneID="o8t-Sd-zUh">
             <objects>
-                <viewController id="aRl-8k-4nI" sceneMemberID="viewController">
+                <viewController id="aRl-8k-4nI" customClass="AboutUsViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f3A-0K-1HS">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jV-ex-iiM">
-                                <rect key="frame" x="153" y="437" width="123" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cok-H0-CWl">
+                                <rect key="frame" x="-419" y="-524" width="254" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
-                                <color key="textColor" systemColor="systemGreenColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="279579008_754378245724005_4853043415969621329_n" title=""/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="279579008_754378245724005_4853043415969621329_n" translatesAutoresizingMaskIntoConstraints="NO" id="PjT-Xp-zsA">
+                                <rect key="frame" x="89" y="88" width="250" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="56G-gS-VXO">
+                                <rect key="frame" x="44" y="353" width="340" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">My name is Abir Das. I am a Computer Engineering student at the insititution the City College of New York. I am under the Grove School of Engineering division and this is our senior design project, that I worked on with my woderful and hardworking classmates.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xg0-gT-iFL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="About US" image="person.3.fill" catalog="system" id="5qB-BC-rfn"/>
                     <navigationItem key="navigationItem" id="e1v-xQ-yNX"/>
+                    <connections>
+                        <outlet property="abirImage" destination="PjT-Xp-zsA" id="f9t-x1-jQY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bBg-4o-fvd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3613" y="-2941"/>
+            <point key="canvasLocation" x="3612.6168224299063" y="-2941.036717062635"/>
         </scene>
         <!--News-->
         <scene sceneID="Xs9-H5-fcm">
@@ -3154,18 +3169,18 @@ infectious?</string>
                         <segue destination="v19-Pf-jja" kind="relationship" relationship="viewControllers" id="9uL-ND-Ihz"/>
                         <segue destination="jB5-6v-FDi" kind="relationship" relationship="viewControllers" id="RTN-JZ-BCJ"/>
                         <segue destination="YUF-Sr-2TS" kind="relationship" relationship="viewControllers" id="6hN-Ce-td4"/>
-                        <segue destination="zL8-Cf-6fF" kind="relationship" relationship="viewControllers" id="IWX-dZ-B3z"/>
+                        <segue destination="zL8-Cf-6fF" kind="relationship" relationship="viewControllers" id="Lwc-5i-tSf"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9lX-PH-9KJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="908" y="-803"/>
         </scene>
-        <!--Information-->
+        <!--Info-->
         <scene sceneID="hIt-eB-DwL">
             <objects>
                 <navigationController id="zL8-Cf-6fF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Information" image="info.circle" catalog="system" id="0wp-3h-5j2">
+                    <tabBarItem key="tabBarItem" title="Info" image="info.circle" catalog="system" id="0wp-3h-5j2">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="q5h-ab-pEO">
@@ -3188,40 +3203,73 @@ infectious?</string>
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-Rx-dzT">
-                                <rect key="frame" x="180" y="156" width="70" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Library"/>
-                                <connections>
-                                    <segue destination="ahr-SZ-TIm" kind="show" id="wF6-kr-yri"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCu-S7-KSm">
-                                <rect key="frame" x="185" y="235" width="59" height="31"/>
+                                <rect key="frame" x="115" y="300" width="200" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="FAQs"/>
+                                <buttonConfiguration key="configuration" style="filled" image="questionmark.circle" catalog="system">
+                                    <attributedString key="attributedSubtitle">
+                                        <fragment content=" FAQs">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99285408885208604" green="0.99285408885208604" blue="0.99285408885208604" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="Ib3-ht-W6A" kind="show" id="h2M-S2-qR3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xO0-fZ-t4d">
-                                <rect key="frame" x="176" y="385" width="70" height="31"/>
+                                <rect key="frame" x="115" y="573" width="200" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Logout"/>
+                                <buttonConfiguration key="configuration" style="filled" image="exclamationmark.circle" catalog="system" title="">
+                                    <attributedString key="attributedSubtitle">
+                                        <fragment content=" Logout">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="LogoutTapped:" destination="XLX-it-R9f" eventType="touchUpInside" id="n4w-Kh-u47"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rW-n5-f0i">
-                                <rect key="frame" x="172" y="308" width="84" height="31"/>
+                                <rect key="frame" x="115" y="431" width="200" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="About Us"/>
+                                <buttonConfiguration key="configuration" style="filled" image="person.3" catalog="system">
+                                    <attributedString key="attributedSubtitle">
+                                        <fragment content="  About Us">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="aRl-8k-4nI" kind="show" id="Pyp-Fm-9KU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-Rx-dzT">
+                                <rect key="frame" x="115" y="160" width="200" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="books.vertical" catalog="system" title="">
+                                    <attributedString key="attributedSubtitle">
+                                        <fragment content=" Library">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ahr-SZ-TIm" kind="show" id="wF6-kr-yri"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3232,30 +3280,35 @@ infectious?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FMn-nq-sih" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1235" y="-1740"/>
+            <point key="canvasLocation" x="1232.2429906542056" y="-1740.3887688984883"/>
         </scene>
     </scenes>
     <resources>
+        <image name="279579008_754378245724005_4853043415969621329_n" width="500" height="500"/>
+        <image name="books.vertical" catalog="system" width="128" height="107"/>
         <image name="books.vertical.fill" catalog="system" width="128" height="109"/>
         <image name="camera" catalog="system" width="128" height="94"/>
         <image name="checkmark.rectangle" catalog="system" width="128" height="93"/>
         <image name="doc" catalog="system" width="115" height="128"/>
+        <image name="exclamationmark.circle" catalog="system" width="128" height="121"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="logo-1" width="1200" height="1200"/>
         <image name="map" catalog="system" width="128" height="110"/>
         <image name="newspaper" catalog="system" width="128" height="111"/>
         <image name="paperclip" catalog="system" width="121" height="128"/>
+        <image name="person.3" catalog="system" width="128" height="62"/>
         <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <image name="photo" catalog="system" width="128" height="93"/>
         <image name="questionmark.app.fill" catalog="system" width="128" height="114"/>
+        <image name="questionmark.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
