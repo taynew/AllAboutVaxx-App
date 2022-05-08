@@ -848,7 +848,7 @@ Cg
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
-                                                        <mutableString key="content">In adults, the most common symptom of meningitis is a severe headache, occurring in almost 90% of cases of bacterial meningitis, followed by neck stiffness (the inability to flex the neck forward passively due to increased neck muscle tone and stiffness). The classic triad of diagnostic signs consists of neck stiffness, sudden high fever, and altered mental status; however, all three features are present in only 44–46% of bacterial meningitis cases. If none of the three signs are present, acute meningitis is extremely unlikely. Other signs commonly associated with meningitis include photophobia (intolerance to bright light) and phonophobia (intolerance to loud noises). Small children often do not exhibit the aforementioned symptoms, and may only be irritable and look unwell. The fontanelle (the soft spot on the top of a baby's head) can bulge in infants aged up to 6 months. Other features that distinguish meningitis from less severe illnesses in young children are leg pain, cold extremities, and an abnormal skin color.</mutableString>
+                                                        <string key="content">In adults, the most common symptom of meningitis is a severe headache, occurring in almost 90% of cases of bacterial meningitis, followed by neck stiffness (the inability to flex the neck forward passively due to increased neck muscle tone and stiffness). The classic triad of diagnostic signs consists of neck stiffness, sudden high fever, and altered mental status; however, all three features are present in only 44–46% of bacterial meningitis cases. If none of the three signs are present, acute meningitis is extremely unlikely. Other signs commonly associated with meningitis include photophobia (intolerance to bright light) and phonophobia (intolerance to loud noises). Small children often do not exhibit the aforementioned symptoms, and may only be irritable and look unwell. The fontanelle (the soft spot on the top of a baby's head) can bulge in infants aged up to 6 months. Other features that distinguish meningitis from less severe illnesses in young children are leg pain, cold extremities, and an abnormal skin color.</string>
                                                         <attributes>
                                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="NSColor" red="0.12549020350000001" green="0.1294117719" blue="0.13333334029999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -916,7 +916,7 @@ Cg
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
-                                                        <mutableString key="content">Since the 1980s, many countries have included immunization against Haemophilus influenzae type B in their routine childhood vaccination schemes. This has practically eliminated this pathogen as a cause of meningitis in young children in those countries. In the countries in which the disease burden is highest, however, the vaccine is still too expensive. Similarly, immunization against mumps has led to a sharp fall in the number of cases of mumps meningitis, which prior to vaccination occurred in 15% of all cases of mumps.</mutableString>
+                                                        <string key="content">Since the 1980s, many countries have included immunization against Haemophilus influenzae type B in their routine childhood vaccination schemes. This has practically eliminated this pathogen as a cause of meningitis in young children in those countries. In the countries in which the disease burden is highest, however, the vaccine is still too expensive. Similarly, immunization against mumps has led to a sharp fall in the number of cases of mumps meningitis, which prior to vaccination occurred in 15% of all cases of mumps.</string>
                                                         <attributes>
                                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="NSColor" red="0.12549020350000001" green="0.1294117719" blue="0.13333334029999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1143,7 +1143,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vPW-1r-wMQ">
-                                <rect key="frame" x="0.0" y="88" width="428" height="4912"/>
+                                <rect key="frame" x="0.0" y="44" width="428" height="4956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cks-fm-QIt">
                                         <rect key="frame" x="0.0" y="0.0" width="428" height="5000"/>
@@ -1310,7 +1310,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6b3-A3-ffx">
-                                <rect key="frame" x="0.0" y="88" width="428" height="4912"/>
+                                <rect key="frame" x="0.0" y="44" width="428" height="4956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORf-7r-0Hi">
                                         <rect key="frame" x="0.0" y="0.0" width="445" height="5000"/>
@@ -1879,12 +1879,9 @@ Nasal: congestion or sneezing
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBm-vO-7zj">
-                                <rect key="frame" x="37" y="142" width="355" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="355" id="aRl-Jx-XI6"/>
-                                    <constraint firstAttribute="height" constant="60" id="i2k-nc-iHb"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBm-vO-7zj">
+                                <rect key="frame" x="37" y="458" width="355" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
@@ -1900,12 +1897,9 @@ Nasal: congestion or sneezing
                                     <segue destination="RNe-Cp-XFV" kind="show" id="hQB-uZ-cOo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsp-MT-xgL">
-                                <rect key="frame" x="37" y="331" width="355" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="Tax-WJ-MmF"/>
-                                    <constraint firstAttribute="width" constant="355" id="YdR-YF-2Gj"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsp-MT-xgL">
+                                <rect key="frame" x="37" y="646" width="355" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Meningitis">
                                     <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1914,40 +1908,9 @@ Nasal: congestion or sneezing
                                     <segue destination="ajz-9z-F2q" kind="show" id="fpE-vq-5yW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuX-56-2x7">
-                                <rect key="frame" x="37" y="435" width="355" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="355" id="gBm-9n-vCj"/>
-                                    <constraint firstAttribute="height" constant="60" id="v6u-1h-ndM"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="SARS">
-                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="XiP-4E-oW5" kind="show" id="4ZD-Qz-s6I"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDD-0G-2hj">
-                                <rect key="frame" x="37" y="537" width="355" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="hIn-vr-RhS"/>
-                                    <constraint firstAttribute="width" constant="355" id="iK1-RR-DTK"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="PLAGUE">
-                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Ypd-SW-aau" kind="show" id="KwR-Ql-WgG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvT-Oo-gqv">
-                                <rect key="frame" x="37" y="238" width="355" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="rjb-2n-GtK"/>
-                                    <constraint firstAttribute="width" constant="355" id="zPP-DC-Wbh"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvT-Oo-gqv">
+                                <rect key="frame" x="37" y="553" width="355" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="MERS">
                                     <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1956,43 +1919,24 @@ Nasal: congestion or sneezing
                                     <segue destination="ral-Sd-jej" kind="show" id="3AA-nE-fDw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8D4-rl-fOr">
-                                <rect key="frame" x="37" y="637" width="355" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="355" id="7nJ-uQ-drK"/>
-                                    <constraint firstAttribute="height" constant="55" id="fSv-Jt-nfb"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Library.png" translatesAutoresizingMaskIntoConstraints="NO" id="e91-Ev-jmG">
+                                <rect key="frame" x="0.0" y="88" width="428" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuX-56-2x7">
+                                <rect key="frame" x="37" y="740" width="355" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="SWINE-FLU">
+                                <buttonConfiguration key="configuration" style="filled" title="SARS">
                                     <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="1qk-5t-QO6" kind="show" id="n7K-qK-dhb"/>
+                                    <segue destination="XiP-4E-oW5" kind="show" id="4ZD-Qz-s6I"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GV4-fC-Bvu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="wsp-MT-xgL" firstAttribute="top" secondItem="uvT-Oo-gqv" secondAttribute="bottom" constant="33" id="4DD-Cn-4V7"/>
-                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="cBm-vO-7zj" secondAttribute="trailing" constant="36" id="51L-Ot-CmS"/>
-                            <constraint firstItem="8D4-rl-fOr" firstAttribute="top" secondItem="kDD-0G-2hj" secondAttribute="bottom" constant="40" id="BPO-9I-ETW"/>
-                            <constraint firstItem="TuX-56-2x7" firstAttribute="top" secondItem="wsp-MT-xgL" secondAttribute="bottom" constant="44" id="D0C-8n-i3S"/>
-                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="8D4-rl-fOr" secondAttribute="trailing" constant="36" id="EAn-ck-fia"/>
-                            <constraint firstItem="cBm-vO-7zj" firstAttribute="top" secondItem="GV4-fC-Bvu" secondAttribute="top" constant="54" id="EqB-jr-ZiT"/>
-                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="kDD-0G-2hj" secondAttribute="trailing" constant="36" id="G7x-HL-uD4"/>
-                            <constraint firstItem="wsp-MT-xgL" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="IDX-EE-VMr"/>
-                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="wsp-MT-xgL" secondAttribute="trailing" constant="36" id="Ib8-YS-4OV"/>
-                            <constraint firstItem="TuX-56-2x7" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="KbM-dl-A7o"/>
-                            <constraint firstItem="kDD-0G-2hj" firstAttribute="top" secondItem="TuX-56-2x7" secondAttribute="bottom" constant="42" id="L1o-hM-04V"/>
-                            <constraint firstItem="8D4-rl-fOr" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="Tuo-Fg-IDf"/>
-                            <constraint firstItem="uvT-Oo-gqv" firstAttribute="top" secondItem="cBm-vO-7zj" secondAttribute="bottom" constant="36" id="bdW-RD-mWK"/>
-                            <constraint firstItem="kDD-0G-2hj" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="izc-vh-vBO"/>
-                            <constraint firstItem="uvT-Oo-gqv" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="meN-sn-Y6u"/>
-                            <constraint firstItem="cBm-vO-7zj" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="nDM-n2-wfl"/>
-                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="uvT-Oo-gqv" secondAttribute="trailing" constant="36" id="uDZ-Vl-bLG"/>
-                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="TuX-56-2x7" secondAttribute="trailing" constant="36" id="wf3-h4-7o5"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Library" image="books.vertical.fill" catalog="system" id="JxU-WQ-LAU">
                         <color key="badgeColor" systemColor="linkColor"/>
@@ -2325,8 +2269,8 @@ Nasal: congestion or sneezing
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JuK-ja-MEe">
-                                <rect key="frame" x="0.0" y="98" width="428" height="746"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JuK-ja-MEe">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="270" id="8hI-Zd-w7j" customClass="clinicCellTableViewCell" customModule="AllAboutVaxx" customModuleProvider="target">
@@ -2383,41 +2327,30 @@ Nasal: congestion or sneezing
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIU-bZ-VcK">
-                                <rect key="frame" x="142" y="98" width="145" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Near My Location">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
-                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="sortByLocationPressed:" destination="yCv-UO-PIs" eventType="touchUpInside" id="66Y-SU-zoA"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0ZO-O9-0vf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="JuK-ja-MEe" secondAttribute="bottom" id="iSB-M2-hlz"/>
-                            <constraint firstItem="JuK-ja-MEe" firstAttribute="leading" secondItem="0ZO-O9-0vf" secondAttribute="leading" id="kSB-xg-6jF"/>
-                            <constraint firstItem="JuK-ja-MEe" firstAttribute="trailing" secondItem="0ZO-O9-0vf" secondAttribute="trailing" id="loD-vf-8Mc"/>
-                            <constraint firstItem="JuK-ja-MEe" firstAttribute="top" secondItem="0ZO-O9-0vf" secondAttribute="top" constant="81" id="tlb-SV-YLm"/>
+                            <constraint firstAttribute="bottom" secondItem="JuK-ja-MEe" secondAttribute="bottom" id="ISC-9I-Z17"/>
+                            <constraint firstItem="JuK-ja-MEe" firstAttribute="leading" secondItem="0ZO-O9-0vf" secondAttribute="leading" id="cAh-rM-49e"/>
+                            <constraint firstItem="JuK-ja-MEe" firstAttribute="top" secondItem="Hbw-h9-ppJ" secondAttribute="top" id="cES-Bk-kpQ"/>
+                            <constraint firstItem="JuK-ja-MEe" firstAttribute="trailing" secondItem="0ZO-O9-0vf" secondAttribute="trailing" id="gfJ-k1-SLe"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Appointment Center" image="map" catalog="system" id="2GC-2t-duT">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
-                    <navigationItem key="navigationItem" id="yir-Yx-FqH"/>
+                    <navigationItem key="navigationItem" id="yir-Yx-FqH">
+                        <barButtonItem key="rightBarButtonItem" title="Near Me" image="mappin.and.ellipse" catalog="system" style="plain" id="htC-dQ-Axl"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="clinicTable" destination="JuK-ja-MEe" id="VnC-Q5-cPI"/>
-                        <outlet property="sortPressed" destination="vIU-bZ-VcK" id="BdY-wE-leM"/>
                         <segue destination="QTx-Gv-p8K" kind="show" id="Ho3-KS-tgn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="19F-DQ-RyJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4852" y="-897"/>
+            <point key="canvasLocation" x="4851.8691588785041" y="-897.40820734341264"/>
         </scene>
         <!--Source To Destination Map View Controller-->
         <scene sceneID="YI6-eO-Tcc">
@@ -2902,23 +2835,14 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
         <!--FAQs-->
         <scene sceneID="vi2-C2-Nnd">
             <objects>
-                <viewController id="Ib3-ht-W6A" sceneMemberID="viewController">
+                <viewController id="Ib3-ht-W6A" customClass="FAQsViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hVN-oy-VPM">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iev-My-Wnv">
-                                <rect key="frame" x="146" y="388" width="136" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="COVID - 19 FAQS">
-                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="KTL-cX-Yca" kind="show" id="3ys-z5-y9Z"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljv-93-aZJ">
-                                <rect key="frame" x="125.66666666666669" y="449" width="177" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljv-93-aZJ">
+                                <rect key="frame" x="116" y="557" width="200" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Common Vaccine FAQS">
                                     <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2927,15 +2851,24 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                                     <segue destination="E1G-Sq-nuK" kind="show" id="gOf-Js-Yux"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FAQ-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="QXC-Hr-aOE">
+                                <rect key="frame" x="0.0" y="104" width="428" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iev-My-Wnv">
+                                <rect key="frame" x="116" y="473" width="200" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="COVID - 19 FAQS">
+                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="KTL-cX-Yca" kind="show" id="3ys-z5-y9Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0ew-J9-h2k"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="iev-My-Wnv" firstAttribute="top" secondItem="0ew-J9-h2k" secondAttribute="top" constant="300" id="FUp-UE-zUS"/>
-                            <constraint firstItem="iev-My-Wnv" firstAttribute="centerX" secondItem="hVN-oy-VPM" secondAttribute="centerX" id="cob-F5-wI9"/>
-                            <constraint firstItem="Ljv-93-aZJ" firstAttribute="top" secondItem="iev-My-Wnv" secondAttribute="bottom" constant="30" id="dtM-IE-lHQ"/>
-                            <constraint firstItem="Ljv-93-aZJ" firstAttribute="centerX" secondItem="hVN-oy-VPM" secondAttribute="centerX" id="pKh-cM-pc1"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="FAQs" image="questionmark.app.fill" catalog="system" id="lQH-ud-0Bf">
                         <color key="badgeColor" systemColor="linkColor"/>
@@ -2944,7 +2877,7 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AvA-lf-FdN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1838" y="-3778"/>
+            <point key="canvasLocation" x="1837.8504672897195" y="-3778.1857451403889"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aNv-fg-Htp">
@@ -3224,7 +3157,7 @@ infectious?</string>
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="healthscreening+(1).png" translatesAutoresizingMaskIntoConstraints="NO" id="8jh-ZZ-z43">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HS-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="8jh-ZZ-z43">
                                 <rect key="frame" x="0.0" y="88" width="428" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -3372,7 +3305,7 @@ infectious?</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCu-S7-KSm">
-                                <rect key="frame" x="115" y="300" width="200" height="65"/>
+                                <rect key="frame" x="115" y="542" width="200" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="questionmark.circle" catalog="system">
@@ -3390,26 +3323,8 @@ infectious?</string>
                                     <segue destination="Ib3-ht-W6A" kind="show" id="h2M-S2-qR3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xO0-fZ-t4d">
-                                <rect key="frame" x="115" y="573" width="200" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="exclamationmark.circle" catalog="system" title="">
-                                    <attributedString key="attributedSubtitle">
-                                        <fragment content=" Logout">
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="LogoutTapped:" destination="XLX-it-R9f" eventType="touchUpInside" id="n4w-Kh-u47"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rW-n5-f0i">
-                                <rect key="frame" x="115" y="431" width="200" height="65"/>
+                                <rect key="frame" x="115" y="635" width="200" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="person.3" catalog="system">
@@ -3427,7 +3342,7 @@ infectious?</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-Rx-dzT">
-                                <rect key="frame" x="115" y="160" width="200" height="65"/>
+                                <rect key="frame" x="115" y="450" width="200" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="books.vertical" catalog="system" title="">
@@ -3444,6 +3359,28 @@ infectious?</string>
                                     <segue destination="ahr-SZ-TIm" kind="show" id="wF6-kr-yri"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Information.png" translatesAutoresizingMaskIntoConstraints="NO" id="TJL-af-NY8">
+                                <rect key="frame" x="0.0" y="99" width="428" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xO0-fZ-t4d">
+                                <rect key="frame" x="114" y="723" width="200" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="exclamationmark.circle" catalog="system" title="">
+                                    <attributedString key="attributedSubtitle">
+                                        <fragment content=" Logout">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="LogoutTapped:" destination="XLX-it-R9f" eventType="touchUpInside" id="n4w-Kh-u47"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hHG-uQ-n8g"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -3457,16 +3394,20 @@ infectious?</string>
     </scenes>
     <resources>
         <image name="279579008_754378245724005_4853043415969621329_n" width="500" height="500"/>
+        <image name="FAQ-3.png" width="450" height="450"/>
+        <image name="HS-2.png" width="450" height="450"/>
+        <image name="Information.png" width="450" height="450"/>
+        <image name="Library.png" width="450" height="450"/>
         <image name="books.vertical" catalog="system" width="128" height="107"/>
         <image name="books.vertical.fill" catalog="system" width="128" height="109"/>
         <image name="camera" catalog="system" width="128" height="94"/>
         <image name="checkmark.rectangle" catalog="system" width="128" height="93"/>
         <image name="doc" catalog="system" width="115" height="128"/>
         <image name="exclamationmark.circle" catalog="system" width="128" height="121"/>
-        <image name="healthscreening+(1).png" width="600" height="600"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="logo-1" width="1200" height="1200"/>
         <image name="map" catalog="system" width="128" height="110"/>
+        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
         <image name="newspaper" catalog="system" width="128" height="111"/>
         <image name="paperclip" catalog="system" width="121" height="128"/>
         <image name="person.3" catalog="system" width="128" height="62"/>
@@ -3482,6 +3423,9 @@ infectious?</string>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
