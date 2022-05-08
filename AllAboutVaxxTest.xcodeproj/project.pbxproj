@@ -170,13 +170,13 @@
 				710EAC0F281DB63000FFD021 /* InformationViewController.swift */,
 				71310C9D2826EC7300037D99 /* AboutUsViewController.swift */,
 				C73747712828141B00E74EBB /* FAQsViewController.swift */,
-				C737476F2828132C00E74EBB /* FAQ-3.png */,
 				C737476D2828125C00E74EBB /* Library.png */,
 				C737476B282810EB00E74EBB /* HS-2.png */,
 				C7374769282810D800E74EBB /* FAQ-2.png */,
 				C7374767282810D000E74EBB /* Information.png */,
 				3CC8820627AE05EC00F6C3B1 /* Main.storyboard */,
 				3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */,
+				C737476F2828132C00E74EBB /* FAQ-3.png */,
 				332B24BD2824A17C00559FB4 /* Main_logo.png */,
 				332B24B928249E5200559FB4 /* Main_background.jpeg */,
 				3CC8820B27AE05EE00F6C3B1 /* LaunchScreen.storyboard */,
@@ -462,7 +462,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FZHSVDALWF;
+				DEVELOPMENT_TEAM = UP65C34UXY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AllAboutVaxxTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AllAboutVaxx;
@@ -498,7 +498,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FZHSVDALWF;
+				DEVELOPMENT_TEAM = UP65C34UXY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AllAboutVaxxTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AllAboutVaxx;
