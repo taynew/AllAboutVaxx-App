@@ -462,7 +462,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UP65C34UXY;
+				DEVELOPMENT_TEAM = FZHSVDALWF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AllAboutVaxxTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AllAboutVaxx;
@@ -498,7 +498,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UP65C34UXY;
+				DEVELOPMENT_TEAM = FZHSVDALWF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AllAboutVaxxTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AllAboutVaxx;
