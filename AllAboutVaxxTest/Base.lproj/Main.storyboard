@@ -2110,6 +2110,7 @@ Nasal: congestion or sneezing
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nsS-Ff-9tC">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance"/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dva-nH-RPz">
                         <autoresizingMask key="autoresizingMask"/>
@@ -2133,7 +2134,7 @@ Nasal: congestion or sneezing
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <tabBarItem key="tabBarItem" title="Newsfeed" image="newspaper" catalog="system" id="XQD-Z5-eaA">
+                    <tabBarItem key="tabBarItem" title="News" image="newspaper" catalog="system" id="XQD-Z5-eaA">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="News" largeTitleDisplayMode="always" id="dls-tE-2uh">
@@ -2144,7 +2145,7 @@ Nasal: congestion or sneezing
             </objects>
             <point key="canvasLocation" x="3613" y="-1687"/>
         </scene>
-        <!--   Vaccination Record-->
+        <!--Vacc Record-->
         <scene sceneID="feN-BK-dcx">
             <objects>
                 <viewController id="PbZ-kP-1JS" customClass="uploadingViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
@@ -2246,7 +2247,7 @@ Nasal: congestion or sneezing
                         <viewLayoutGuide key="safeArea" id="dgp-lY-Xxn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="   Vaccination Record" image="doc" catalog="system" id="iNT-bk-xtf">
+                    <tabBarItem key="tabBarItem" title="Vacc Record" image="doc" catalog="system" id="iNT-bk-xtf">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -2356,11 +2357,11 @@ Nasal: congestion or sneezing
             </objects>
             <point key="canvasLocation" x="5913.0841121495323" y="-1687.257019438445"/>
         </scene>
-        <!--Appointment Center-->
+        <!--Appointment-->
         <scene sceneID="ha5-fR-vfH">
             <objects>
                 <navigationController id="jB5-6v-FDi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Appointment Center" image="map" catalog="system" id="Qjm-9k-elN"/>
+                    <tabBarItem key="tabBarItem" title="Appointment" image="map" catalog="system" id="Qjm-9k-elN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Op4-GF-nEc">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2373,7 +2374,7 @@ Nasal: congestion or sneezing
             </objects>
             <point key="canvasLocation" x="3283" y="-803"/>
         </scene>
-        <!--Appointment Center-->
+        <!--Appointment-->
         <scene sceneID="m0T-T2-QIh">
             <objects>
                 <viewController id="yCv-UO-PIs" customClass="clinicListViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
@@ -2449,7 +2450,7 @@ Nasal: congestion or sneezing
                             <constraint firstItem="JuK-ja-MEe" firstAttribute="trailing" secondItem="0ZO-O9-0vf" secondAttribute="trailing" id="gfJ-k1-SLe"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Appointment Center" image="map" catalog="system" id="2GC-2t-duT">
+                    <tabBarItem key="tabBarItem" title="Appointment" image="map" catalog="system" id="2GC-2t-duT">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="yir-Yx-FqH">
@@ -3307,7 +3308,7 @@ infectious?</string>
                         <viewLayoutGuide key="safeArea" id="o7c-Ln-JXJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Health Screening" image="checkmark.rectangle" catalog="system" id="BMn-mm-VOk">
+                    <tabBarItem key="tabBarItem" title="Health Screen" image="checkmark.rectangle" catalog="system" id="BMn-mm-VOk">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="3ZW-km-gao"/>
@@ -3316,11 +3317,11 @@ infectious?</string>
             </objects>
             <point key="canvasLocation" x="-642.0560747663551" y="-3778.1857451403889"/>
         </scene>
-        <!--Health Screening-->
+        <!--Health Screen-->
         <scene sceneID="LzZ-MU-HFL">
             <objects>
                 <navigationController id="YUF-Sr-2TS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Health Screening" image="checkmark.rectangle" catalog="system" id="mEG-c8-tOP"/>
+                    <tabBarItem key="tabBarItem" title="Health Screen" image="checkmark.rectangle" catalog="system" id="mEG-c8-tOP"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IS4-LX-qo5">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3333,11 +3334,11 @@ infectious?</string>
             </objects>
             <point key="canvasLocation" x="-1546" y="-3778"/>
         </scene>
-        <!--Vaccination Record-->
+        <!--Vacc Record-->
         <scene sceneID="9mk-kP-fAc">
             <objects>
                 <navigationController id="GdP-w7-Wu8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Vaccination Record" image="doc" catalog="system" id="nMk-9e-3te"/>
+                    <tabBarItem key="tabBarItem" title="Vacc Record" image="doc" catalog="system" id="nMk-9e-3te"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0cX-Gg-QZV">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3380,6 +3381,7 @@ infectious?</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="scrollEdgeAppearance"/>
                     </tabBar>
                     <connections>
                         <segue destination="GdP-w7-Wu8" kind="relationship" relationship="viewControllers" id="1Da-kl-g6X"/>
@@ -3393,11 +3395,11 @@ infectious?</string>
             </objects>
             <point key="canvasLocation" x="908" y="-803"/>
         </scene>
-        <!--Information-->
+        <!--Info-->
         <scene sceneID="hIt-eB-DwL">
             <objects>
                 <navigationController id="zL8-Cf-6fF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Information" image="info.circle" catalog="system" id="0wp-3h-5j2">
+                    <tabBarItem key="tabBarItem" title="Info" image="info.circle" catalog="system" id="0wp-3h-5j2">
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="q5h-ab-pEO">
