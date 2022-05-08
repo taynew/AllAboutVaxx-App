@@ -43,7 +43,12 @@
 		71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1627EE218D00C725BF /* NewsTableViewCell.swift */; };
 		710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EAC0F281DB63000FFD021 /* InformationViewController.swift */; };
 		71310C9E2826EC7400037D99 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71310C9D2826EC7300037D99 /* AboutUsViewController.swift */; };
-		C79E72D128271BD300CF81F7 /* healthscreening+(1).png in Resources */ = {isa = PBXBuildFile; fileRef = C79E72D028271BD300CF81F7 /* healthscreening+(1).png */; };
+		C7374768282810D000E74EBB /* Information.png in Resources */ = {isa = PBXBuildFile; fileRef = C7374767282810D000E74EBB /* Information.png */; };
+		C737476A282810D800E74EBB /* FAQ-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7374769282810D800E74EBB /* FAQ-2.png */; };
+		C737476C282810EB00E74EBB /* HS-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C737476B282810EB00E74EBB /* HS-2.png */; };
+		C737476E2828125C00E74EBB /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = C737476D2828125C00E74EBB /* Library.png */; };
+		C73747702828132D00E74EBB /* FAQ-3.png in Resources */ = {isa = PBXBuildFile; fileRef = C737476F2828132C00E74EBB /* FAQ-3.png */; };
+		C73747722828141B00E74EBB /* FAQsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73747712828141B00E74EBB /* FAQsViewController.swift */; };
 		C79E72D528271D9300CF81F7 /* HealthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E72D428271D9200CF81F7 /* HealthScreen.swift */; };
 		C79E72D7282789CE00CF81F7 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E72D6282789CE00CF81F7 /* LibraryViewController.swift */; };
 /* End PBXBuildFile section */
@@ -91,7 +96,12 @@
 		71096F1627EE218D00C725BF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		710EAC0F281DB63000FFD021 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		71310C9D2826EC7300037D99 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
-		C79E72D028271BD300CF81F7 /* healthscreening+(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "healthscreening+(1).png"; sourceTree = "<group>"; };
+		C7374767282810D000E74EBB /* Information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Information.png; sourceTree = "<group>"; };
+		C7374769282810D800E74EBB /* FAQ-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FAQ-2.png"; sourceTree = "<group>"; };
+		C737476B282810EB00E74EBB /* HS-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-2.png"; sourceTree = "<group>"; };
+		C737476D2828125C00E74EBB /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Library.png; sourceTree = "<group>"; };
+		C737476F2828132C00E74EBB /* FAQ-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FAQ-3.png"; sourceTree = "<group>"; };
+		C73747712828141B00E74EBB /* FAQsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsViewController.swift; sourceTree = "<group>"; };
 		C79E72D428271D9200CF81F7 /* HealthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScreen.swift; sourceTree = "<group>"; };
 		C79E72D6282789CE00CF81F7 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,9 +168,14 @@
 				1B2CCA662813804400C7F173 /* clinicCellTableViewCell.swift */,
 				C79E72D6282789CE00CF81F7 /* LibraryViewController.swift */,
 				710EAC0F281DB63000FFD021 /* InformationViewController.swift */,
+				C737476F2828132C00E74EBB /* FAQ-3.png */,
+				C737476D2828125C00E74EBB /* Library.png */,
+				C737476B282810EB00E74EBB /* HS-2.png */,
+				C7374769282810D800E74EBB /* FAQ-2.png */,
+				C7374767282810D000E74EBB /* Information.png */,
 				71310C9D2826EC7300037D99 /* AboutUsViewController.swift */,
-				C79E72D028271BD300CF81F7 /* healthscreening+(1).png */,
 				3CC8820627AE05EC00F6C3B1 /* Main.storyboard */,
+				C73747712828141B00E74EBB /* FAQsViewController.swift */,
 				3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */,
 				332B24BD2824A17C00559FB4 /* Main_logo.png */,
 				332B24B928249E5200559FB4 /* Main_background.jpeg */,
@@ -253,13 +268,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C737476C282810EB00E74EBB /* HS-2.png in Resources */,
+				C737476E2828125C00E74EBB /* Library.png in Resources */,
 				3CC8820D27AE05EE00F6C3B1 /* LaunchScreen.storyboard in Resources */,
 				1BD50B9727D4F3BB0016ED7C /* GoogleService-Info.plist in Resources */,
+				C7374768282810D000E74EBB /* Information.png in Resources */,
+				C737476A282810D800E74EBB /* FAQ-2.png in Resources */,
 				332B24BB28249E5300559FB4 /* Main_background.jpeg in Resources */,
 				332B24BE2824A17F00559FB4 /* Main_logo.png in Resources */,
 				3CC8820A27AE05EE00F6C3B1 /* Assets.xcassets in Resources */,
-				C79E72D128271BD300CF81F7 /* healthscreening+(1).png in Resources */,
 				3CC8820827AE05EC00F6C3B1 /* Main.storyboard in Resources */,
+				C73747702828132D00E74EBB /* FAQ-3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79E72D528271D9300CF81F7 /* HealthScreen.swift in Sources */,
+				C73747722828141B00E74EBB /* FAQsViewController.swift in Sources */,
 				71310C9E2826EC7400037D99 /* AboutUsViewController.swift in Sources */,
 				1B2CCA6528137F6900C7F173 /* clinicListViewController.swift in Sources */,
 				710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */,
