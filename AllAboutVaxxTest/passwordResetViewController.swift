@@ -15,7 +15,7 @@ class passwordResetViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
-        title = "Password Reset"
+        navigationItem.title = "Password Reset"
         // Do any additional setup after loading the view.
     }
     

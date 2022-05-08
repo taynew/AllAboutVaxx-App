@@ -27,7 +27,7 @@ class LogInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
-        title = "Login"
+        navigationItem.title = "Login"
         // Do any additional setup after loading the view.
     }
     

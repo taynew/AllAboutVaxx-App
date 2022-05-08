@@ -31,7 +31,7 @@ class clinicListViewController: UIViewController, UITableViewDataSource, UITable
         clinicTable.delegate = self
         locationManager.requestAlwaysAuthorization()
         locationManager.requestWhenInUseAuthorization()
-        title = "Vaccination Sites"
+        navigationItem.title = "Vaccination Sites"
         
     }
     

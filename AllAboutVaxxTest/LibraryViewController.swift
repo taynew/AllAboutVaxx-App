@@ -11,7 +11,7 @@ class LibraryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Library"
+        navigationItem.title = "Library"
 
         // Do any additional setup after loading the view.
     }

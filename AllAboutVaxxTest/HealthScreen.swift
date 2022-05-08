@@ -13,7 +13,7 @@ class HealthScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Health Screening"
+        navigationItem.title = "Health Screening"
 
         // Do any additional setup after loading the view.
     }
