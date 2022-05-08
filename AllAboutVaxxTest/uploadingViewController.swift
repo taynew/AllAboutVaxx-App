@@ -16,7 +16,7 @@ class uploadingViewController: UIViewController, UIImagePickerControllerDelegate
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Vaccination Record"
+        navigationItem.title = "Vaccination Record"
         createDatePicker()
         self.hideKeyboardWhenTappedAround()
         // Do any additional setup after loading the view.

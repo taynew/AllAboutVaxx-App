@@ -20,7 +20,7 @@ class AboutUsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "About Us"
+        navigationItem.title = "About Us"
         abirImage.layer.cornerRadius = abirImage.frame.size.width / 2
         abirImage.clipsToBounds = true
         derrickImage.layer.cornerRadius = derrickImage.frame.size.width / 2

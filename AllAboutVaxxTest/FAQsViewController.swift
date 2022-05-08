@@ -11,7 +11,7 @@ class FAQsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "FAQs"
+        navigationItem.title = "FAQs"
 
         // Do any additional setup after loading the view.
     }
