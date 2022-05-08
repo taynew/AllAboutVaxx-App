@@ -16,10 +16,8 @@ class clinicListViewController: UIViewController, UITableViewDataSource, UITable
     
     @IBOutlet weak var clinicTable: UITableView!
     
-    @IBOutlet weak var sortPressed: UIButton!
     
-    
-    @IBAction func sortByLocationPressed(_ sender: Any) {
+    @IBAction func sortLocationPressed(_ sender: Any) {
         if CLLocationManager.locationServicesEnabled() {
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
