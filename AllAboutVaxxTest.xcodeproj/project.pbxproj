@@ -43,6 +43,9 @@
 		71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1627EE218D00C725BF /* NewsTableViewCell.swift */; };
 		710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EAC0F281DB63000FFD021 /* InformationViewController.swift */; };
 		71310C9E2826EC7400037D99 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71310C9D2826EC7300037D99 /* AboutUsViewController.swift */; };
+		C79E72D128271BD300CF81F7 /* healthscreening+(1).png in Resources */ = {isa = PBXBuildFile; fileRef = C79E72D028271BD300CF81F7 /* healthscreening+(1).png */; };
+		C79E72D528271D9300CF81F7 /* HealthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E72D428271D9200CF81F7 /* HealthScreen.swift */; };
+		C79E72D7282789CE00CF81F7 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E72D6282789CE00CF81F7 /* LibraryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +91,9 @@
 		71096F1627EE218D00C725BF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		710EAC0F281DB63000FFD021 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		71310C9D2826EC7300037D99 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		C79E72D028271BD300CF81F7 /* healthscreening+(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "healthscreening+(1).png"; sourceTree = "<group>"; };
+		C79E72D428271D9200CF81F7 /* HealthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScreen.swift; sourceTree = "<group>"; };
+		C79E72D6282789CE00CF81F7 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 				3CC8820227AE05EC00F6C3B1 /* SceneDelegate.swift */,
 				3CC8820427AE05EC00F6C3B1 /* ViewController.swift */,
 				1B13E9D927C159C700F02EAD /* HealthScreeningVC.swift */,
+				C79E72D428271D9200CF81F7 /* HealthScreen.swift */,
 				1B13E9DB27C15B3100F02EAD /* ResultScreenViewController.swift */,
 				1B56820827D9191A001DAF87 /* LogInViewController.swift */,
 				1B56820A27D9193A001DAF87 /* SignUpViewController.swift */,
@@ -149,8 +156,10 @@
 				1B2CCA5E28133D0700C7F173 /* sourceToDestinationMapViewController.swift */,
 				1B2CCA6428137F6900C7F173 /* clinicListViewController.swift */,
 				1B2CCA662813804400C7F173 /* clinicCellTableViewCell.swift */,
+				C79E72D6282789CE00CF81F7 /* LibraryViewController.swift */,
 				710EAC0F281DB63000FFD021 /* InformationViewController.swift */,
 				71310C9D2826EC7300037D99 /* AboutUsViewController.swift */,
+				C79E72D028271BD300CF81F7 /* healthscreening+(1).png */,
 				3CC8820627AE05EC00F6C3B1 /* Main.storyboard */,
 				3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */,
 				332B24BD2824A17C00559FB4 /* Main_logo.png */,
@@ -249,6 +258,7 @@
 				332B24BB28249E5300559FB4 /* Main_background.jpeg in Resources */,
 				332B24BE2824A17F00559FB4 /* Main_logo.png in Resources */,
 				3CC8820A27AE05EE00F6C3B1 /* Assets.xcassets in Resources */,
+				C79E72D128271BD300CF81F7 /* healthscreening+(1).png in Resources */,
 				3CC8820827AE05EC00F6C3B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79E72D528271D9300CF81F7 /* HealthScreen.swift in Sources */,
 				71310C9E2826EC7400037D99 /* AboutUsViewController.swift in Sources */,
 				1B2CCA6528137F6900C7F173 /* clinicListViewController.swift in Sources */,
 				710EAC10281DB63000FFD021 /* InformationViewController.swift in Sources */,
@@ -271,6 +282,7 @@
 				71096F0F27EE0B3000C725BF /* NeewsFeedViewController.swift in Sources */,
 				1BE758EA27FCEC1600F330DB /* vaccRecordTableViewCell.swift in Sources */,
 				1B2CCA672813804400C7F173 /* clinicCellTableViewCell.swift in Sources */,
+				C79E72D7282789CE00CF81F7 /* LibraryViewController.swift in Sources */,
 				1B56820B27D9193A001DAF87 /* SignUpViewController.swift in Sources */,
 				71096F1127EE0ECE00C725BF /* APICallerFile.swift in Sources */,
 				1B2CCA5F28133D0700C7F173 /* sourceToDestinationMapViewController.swift in Sources */,
