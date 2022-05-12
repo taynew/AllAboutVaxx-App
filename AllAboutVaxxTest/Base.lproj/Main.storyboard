@@ -16,28 +16,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xn7-Dt-P0I">
-                                <rect key="frame" x="74" y="446" width="289" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xn7-Dt-P0I">
+                                <rect key="frame" x="50" y="456" width="328" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="328" id="iLW-v2-mhT"/>
+                                    <constraint firstAttribute="height" constant="40" id="wjX-6j-GZk"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wEE-MA-BWS">
-                                <rect key="frame" x="74" y="532" width="289" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wEE-MA-BWS">
+                                <rect key="frame" x="50" y="538" width="328" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="KI9-TP-XYK"/>
+                                    <constraint firstAttribute="width" constant="328" id="NBh-fh-3uS"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type your login credentials above." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANF-8w-yP7">
-                                <rect key="frame" x="84" y="669" width="260" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type your login credentials above." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANF-8w-yP7">
+                                <rect key="frame" x="50" y="673" width="328" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="piG-cl-5Hm"/>
+                                    <constraint firstAttribute="width" constant="328" id="zfo-PA-03w"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyV-ZG-lYW">
-                                <rect key="frame" x="53" y="747" width="322" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyV-ZG-lYW">
+                                <rect key="frame" x="53" y="756.66666666666663" width="322" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="XWd-qC-CBu"/>
+                                    <constraint firstAttribute="width" constant="322" id="c7X-pK-KDb"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Don't have an account yet? Create an account">
                                     <color key="baseForegroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -46,42 +58,94 @@
                                     <segue destination="yJR-oB-NUb" kind="show" id="Dye-Nm-cyv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYn-K1-5H3">
-                                <rect key="frame" x="162" y="614" width="104" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYn-K1-5H3">
+                                <rect key="frame" x="150" y="620" width="128" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="D6h-X5-ARB"/>
+                                    <constraint firstAttribute="width" constant="128" id="s4Z-sJ-MNk"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Login">
+                                <buttonConfiguration key="configuration" style="filled" title="Login" titleAlignment="center">
                                     <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="loginTapped:" destination="HMA-M6-Rx2" eventType="touchUpInside" id="12G-fr-2hx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgf-6l-LZl">
-                                <rect key="frame" x="53" y="807" width="322" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgf-6l-LZl">
+                                <rect key="frame" x="120" y="807" width="188" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="JAy-OX-Weg"/>
+                                    <constraint firstAttribute="height" constant="31" id="Jvg-2O-Fzc"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Forgot Password?">
+                                <buttonConfiguration key="configuration" style="plain" title="Forgot Password?" titleAlignment="center">
                                     <color key="baseForegroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="RFk-N9-9Xn" kind="show" id="nEn-HQ-gPZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All About Vaxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu0-qy-Ftd">
-                                <rect key="frame" x="130" y="377" width="169" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All About Vaxx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu0-qy-Ftd">
+                                <rect key="frame" x="100" y="402" width="228" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="72t-gQ-oZB"/>
+                                    <constraint firstAttribute="width" constant="228" id="iPq-xV-iR0"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="lqG-zn-GiY">
-                                <rect key="frame" x="20" y="109" width="388" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lqG-zn-GiY">
+                                <rect key="frame" x="85" y="109" width="258" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="UVa-WQ-qcB"/>
+                                    <constraint firstAttribute="width" constant="258" id="d9c-94-2Iy"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nZs-up-bia"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lqG-zn-GiY" firstAttribute="top" secondItem="nZs-up-bia" secondAttribute="top" constant="21" id="1Ox-7J-aBC"/>
+                            <constraint firstItem="Mu0-qy-Ftd" firstAttribute="centerX" secondItem="Zj1-nX-Pau" secondAttribute="centerX" id="3gr-1c-c2u"/>
+                            <constraint firstItem="Jgf-6l-LZl" firstAttribute="top" secondItem="gyV-ZG-lYW" secondAttribute="bottom" constant="19.329999999999998" id="4Y8-kM-hVv"/>
+                            <constraint firstItem="lqG-zn-GiY" firstAttribute="centerX" secondItem="Zj1-nX-Pau" secondAttribute="centerX" id="57w-TO-9Bs"/>
+                            <constraint firstItem="wYn-K1-5H3" firstAttribute="top" secondItem="wEE-MA-BWS" secondAttribute="bottom" constant="42" id="5fO-6V-dli"/>
+                            <constraint firstItem="Mu0-qy-Ftd" firstAttribute="leading" secondItem="nZs-up-bia" secondAttribute="leading" constant="100" id="9u4-vd-HbO"/>
+                            <constraint firstAttribute="trailing" secondItem="lqG-zn-GiY" secondAttribute="trailing" constant="85" id="Ci9-Kc-91S"/>
+                            <constraint firstItem="nZs-up-bia" firstAttribute="trailing" secondItem="xn7-Dt-P0I" secondAttribute="trailing" constant="50" id="MWx-up-1aj"/>
+                            <constraint firstItem="ANF-8w-yP7" firstAttribute="top" secondItem="wYn-K1-5H3" secondAttribute="bottom" constant="18" id="RwH-by-A1b"/>
+                            <constraint firstItem="nZs-up-bia" firstAttribute="bottom" secondItem="Jgf-6l-LZl" secondAttribute="bottom" constant="54" id="Rwd-J8-5eg"/>
+                            <constraint firstItem="nZs-up-bia" firstAttribute="trailing" secondItem="ANF-8w-yP7" secondAttribute="trailing" constant="50" id="S3x-9T-Vsu"/>
+                            <constraint firstItem="wYn-K1-5H3" firstAttribute="leading" secondItem="nZs-up-bia" secondAttribute="leading" constant="150" id="SpR-cO-woO"/>
+                            <constraint firstItem="lqG-zn-GiY" firstAttribute="leading" secondItem="Zj1-nX-Pau" secondAttribute="leading" constant="85" id="Tek-De-XTy"/>
+                            <constraint firstItem="Jgf-6l-LZl" firstAttribute="leading" secondItem="nZs-up-bia" secondAttribute="leading" constant="120" id="Tk0-sG-E4p"/>
+                            <constraint firstItem="gyV-ZG-lYW" firstAttribute="top" secondItem="ANF-8w-yP7" secondAttribute="bottom" constant="53.670000000000002" id="axN-4g-B9z"/>
+                            <constraint firstItem="xn7-Dt-P0I" firstAttribute="centerX" secondItem="Zj1-nX-Pau" secondAttribute="centerX" id="bDd-js-Uq4"/>
+                            <constraint firstItem="gyV-ZG-lYW" firstAttribute="centerX" secondItem="Zj1-nX-Pau" secondAttribute="centerX" id="cUt-rN-Q2d"/>
+                            <constraint firstItem="wEE-MA-BWS" firstAttribute="top" secondItem="xn7-Dt-P0I" secondAttribute="bottom" constant="42" id="eUG-Lu-jzI"/>
+                            <constraint firstItem="wEE-MA-BWS" firstAttribute="centerX" secondItem="Zj1-nX-Pau" secondAttribute="centerX" id="ee0-DQ-tkQ"/>
+                            <constraint firstItem="wEE-MA-BWS" firstAttribute="leading" secondItem="nZs-up-bia" secondAttribute="leading" constant="50" id="ffW-TO-36M"/>
+                            <constraint firstItem="ANF-8w-yP7" firstAttribute="leading" secondItem="nZs-up-bia" secondAttribute="leading" constant="50" id="h8K-eP-f8c"/>
+                            <constraint firstItem="gyV-ZG-lYW" firstAttribute="leading" secondItem="nZs-up-bia" secondAttribute="leading" constant="53" id="iHW-q2-206"/>
+                            <constraint firstItem="xn7-Dt-P0I" firstAttribute="leading" secondItem="nZs-up-bia" secondAttribute="leading" constant="50" id="kjw-Wi-xMI"/>
+                            <constraint firstItem="nZs-up-bia" firstAttribute="trailing" secondItem="wEE-MA-BWS" secondAttribute="trailing" constant="50" id="nEd-po-Fdm"/>
+                            <constraint firstItem="nZs-up-bia" firstAttribute="trailing" secondItem="wYn-K1-5H3" secondAttribute="trailing" constant="150" id="qAG-sW-UnV"/>
+                            <constraint firstItem="wYn-K1-5H3" firstAttribute="centerX" secondItem="Zj1-nX-Pau" secondAttribute="centerX" id="rk5-eO-uLp"/>
+                            <constraint firstItem="Mu0-qy-Ftd" firstAttribute="top" secondItem="lqG-zn-GiY" secondAttribute="bottom" constant="43" id="rlx-nZ-Mlt"/>
+                            <constraint firstItem="xn7-Dt-P0I" firstAttribute="top" secondItem="Mu0-qy-Ftd" secondAttribute="bottom" constant="14" id="sQr-XS-O2y"/>
+                            <constraint firstItem="nZs-up-bia" firstAttribute="trailing" secondItem="gyV-ZG-lYW" secondAttribute="trailing" constant="53" id="u5b-mD-VsH"/>
+                            <constraint firstItem="wEE-MA-BWS" firstAttribute="top" secondItem="xn7-Dt-P0I" secondAttribute="bottom" constant="42" id="wDX-PI-mE5"/>
+                            <constraint firstItem="wYn-K1-5H3" firstAttribute="top" secondItem="wEE-MA-BWS" secondAttribute="bottom" constant="42" id="xMc-oB-Z0H"/>
+                            <constraint firstItem="Jgf-6l-LZl" firstAttribute="centerX" secondItem="Zj1-nX-Pau" secondAttribute="centerX" id="xOa-Vm-e3C"/>
+                            <constraint firstItem="nZs-up-bia" firstAttribute="trailing" secondItem="Mu0-qy-Ftd" secondAttribute="trailing" constant="100" id="xby-04-iwM"/>
+                            <constraint firstItem="nZs-up-bia" firstAttribute="trailing" secondItem="Jgf-6l-LZl" secondAttribute="trailing" constant="120" id="xcY-XF-eKF"/>
+                            <constraint firstItem="Mu0-qy-Ftd" firstAttribute="top" secondItem="lqG-zn-GiY" secondAttribute="bottom" constant="43" id="xml-As-Zie"/>
+                            <constraint firstItem="ANF-8w-yP7" firstAttribute="centerX" secondItem="Zj1-nX-Pau" secondAttribute="centerX" id="xs4-hk-YxP"/>
+                            <constraint firstItem="xn7-Dt-P0I" firstAttribute="top" secondItem="Mu0-qy-Ftd" secondAttribute="bottom" constant="14" id="ziF-iK-9xQ"/>
+                            <constraint firstItem="gyV-ZG-lYW" firstAttribute="top" secondItem="ANF-8w-yP7" secondAttribute="bottom" constant="53.670000000000002" id="zz0-Co-G7g"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9ty-sr-wcQ"/>
                     <connections>
@@ -2816,17 +2880,23 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mj7-La-IqJ">
-                                <rect key="frame" x="39" y="148" width="351" height="244"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mj7-La-IqJ">
+                                <rect key="frame" x="50" y="148" width="328" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="328" id="F4r-SH-4Er"/>
+                                    <constraint firstAttribute="height" constant="300" id="SaX-fQ-dVq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCK-o2-x5t" userLabel="2">
-                                <rect key="frame" x="93" y="586" width="241" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCK-o2-x5t" userLabel="2">
+                                <rect key="frame" x="80" y="628" width="268" height="60"/>
                                 <accessibility key="accessibilityConfiguration" label="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="BBK-nV-Vcr"/>
+                                    <constraint firstAttribute="height" constant="60" id="zDE-IE-FrV"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Yes">
                                     <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2835,10 +2905,13 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                                     <action selector="answer:" destination="9WB-Y0-GSv" eventType="touchUpInside" id="SkK-2b-O5L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfH-V9-Mvf" userLabel="1">
-                                <rect key="frame" x="93" y="493" width="241" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfH-V9-Mvf" userLabel="1">
+                                <rect key="frame" x="80" y="548" width="268" height="60"/>
                                 <accessibility key="accessibilityConfiguration" label="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="9mX-Ew-5mT"/>
+                                    <constraint firstAttribute="height" constant="60" id="t7D-TR-ly3"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="No">
                                     <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2850,6 +2923,22 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ony-bf-NqZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZfH-V9-Mvf" firstAttribute="leading" secondItem="ony-bf-NqZ" secondAttribute="leading" constant="80" id="3Ey-3W-wXd"/>
+                            <constraint firstItem="ZfH-V9-Mvf" firstAttribute="top" secondItem="mj7-La-IqJ" secondAttribute="bottom" constant="100" id="6nE-8n-kTy"/>
+                            <constraint firstItem="qCK-o2-x5t" firstAttribute="leading" secondItem="ony-bf-NqZ" secondAttribute="leading" constant="80" id="83q-A1-qxJ"/>
+                            <constraint firstItem="ony-bf-NqZ" firstAttribute="trailing" secondItem="mj7-La-IqJ" secondAttribute="trailing" constant="50" id="A5L-J9-fho"/>
+                            <constraint firstItem="mj7-La-IqJ" firstAttribute="centerX" secondItem="yHo-5D-bqX" secondAttribute="centerX" id="DcM-ji-3jM"/>
+                            <constraint firstItem="ony-bf-NqZ" firstAttribute="trailing" secondItem="ZfH-V9-Mvf" secondAttribute="trailing" constant="80" id="Ju3-3P-Wpj"/>
+                            <constraint firstItem="qCK-o2-x5t" firstAttribute="top" secondItem="ZfH-V9-Mvf" secondAttribute="bottom" constant="20" id="PnY-Bp-Jcc"/>
+                            <constraint firstItem="qCK-o2-x5t" firstAttribute="centerX" secondItem="yHo-5D-bqX" secondAttribute="centerX" id="QD1-1D-Xn6"/>
+                            <constraint firstItem="qCK-o2-x5t" firstAttribute="top" secondItem="ZfH-V9-Mvf" secondAttribute="bottom" constant="20" id="evh-1x-PXm"/>
+                            <constraint firstItem="ony-bf-NqZ" firstAttribute="trailing" secondItem="qCK-o2-x5t" secondAttribute="trailing" constant="80" id="h7B-ws-aJj"/>
+                            <constraint firstItem="ony-bf-NqZ" firstAttribute="bottom" secondItem="qCK-o2-x5t" secondAttribute="bottom" constant="155" id="kx5-ZP-IcG"/>
+                            <constraint firstItem="mj7-La-IqJ" firstAttribute="top" secondItem="ony-bf-NqZ" secondAttribute="top" constant="60" id="lp1-ot-b9z"/>
+                            <constraint firstItem="ZfH-V9-Mvf" firstAttribute="centerX" secondItem="yHo-5D-bqX" secondAttribute="centerX" id="n0P-D0-TfV"/>
+                            <constraint firstItem="mj7-La-IqJ" firstAttribute="leading" secondItem="ony-bf-NqZ" secondAttribute="leading" constant="50" id="sg8-2o-ryG"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EeC-tX-Dp9"/>
                     <connections>
@@ -2869,27 +2958,33 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                         <rect key="frame" x="0.0" y="0.0" width="428" height="941"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j1k-hp-kof">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j1k-hp-kof">
                                 <rect key="frame" x="0.0" y="119" width="428" height="832"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vvr-dW-7Yn">
-                                        <rect key="frame" x="-8" y="-190" width="428" height="1118"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vvr-dW-7Yn">
+                                        <rect key="frame" x="0.0" y="-114" width="428" height="963"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pjD-t8-Vgy">
-                                                <rect key="frame" x="124" y="112" width="200" height="200"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pjD-t8-Vgy">
+                                                <rect key="frame" x="80" y="110" width="268" height="214"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="214" id="5v6-Lf-OpN"/>
+                                                </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10O-SW-vCC">
-                                                <rect key="frame" x="297.66666666666669" y="334" width="41.333333333333314" height="20.333333333333314"/>
+                                                <rect key="frame" x="80" y="354" width="268" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="268" id="8vy-fq-hGj"/>
+                                                    <constraint firstAttribute="height" constant="80" id="RHh-56-esh"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkp-b4-bdj">
-                                                <rect key="frame" x="44" y="384.33333333333326" width="340" height="400"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkp-b4-bdj">
+                                                <rect key="frame" x="30" y="464" width="368" height="469"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="340" id="f3V-MZ-0vG"/>
-                                                    <constraint firstAttribute="height" constant="400" id="rEy-Li-O2c"/>
+                                                    <constraint firstAttribute="height" constant="469" id="0BL-1R-7Xz"/>
+                                                    <constraint firstAttribute="width" constant="368" id="3u1-sY-7Kd"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
@@ -2898,17 +2993,26 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="10O-SW-vCC" secondAttribute="trailing" constant="89" id="EZe-rO-bya"/>
-                                            <constraint firstItem="10O-SW-vCC" firstAttribute="top" secondItem="vvr-dW-7Yn" secondAttribute="top" constant="334" id="RDb-zQ-6ly"/>
-                                            <constraint firstAttribute="height" constant="1200" id="UdY-OU-pdd"/>
-                                            <constraint firstItem="bkp-b4-bdj" firstAttribute="centerX" secondItem="vvr-dW-7Yn" secondAttribute="centerX" id="fzq-GH-9ks"/>
-                                            <constraint firstItem="bkp-b4-bdj" firstAttribute="top" secondItem="10O-SW-vCC" secondAttribute="bottom" constant="30" id="gyC-ff-Axf"/>
+                                            <constraint firstItem="pjD-t8-Vgy" firstAttribute="centerX" secondItem="vvr-dW-7Yn" secondAttribute="centerX" id="4aP-07-HEi"/>
+                                            <constraint firstItem="10O-SW-vCC" firstAttribute="leading" secondItem="vvr-dW-7Yn" secondAttribute="leading" constant="80" id="7Ll-UK-aVY"/>
+                                            <constraint firstItem="10O-SW-vCC" firstAttribute="top" secondItem="pjD-t8-Vgy" secondAttribute="bottom" constant="30" id="Fp9-ap-Ini"/>
+                                            <constraint firstAttribute="bottom" secondItem="bkp-b4-bdj" secondAttribute="bottom" constant="30" id="JJI-IN-42d"/>
+                                            <constraint firstAttribute="trailing" secondItem="bkp-b4-bdj" secondAttribute="trailing" constant="30" id="KnL-SL-2DO"/>
+                                            <constraint firstItem="pjD-t8-Vgy" firstAttribute="leading" secondItem="vvr-dW-7Yn" secondAttribute="leading" constant="80" id="QD5-2b-1r6"/>
+                                            <constraint firstItem="bkp-b4-bdj" firstAttribute="top" secondItem="10O-SW-vCC" secondAttribute="bottom" constant="30" id="Twn-jm-fc5"/>
+                                            <constraint firstAttribute="height" constant="963" id="UdY-OU-pdd"/>
+                                            <constraint firstAttribute="trailing" secondItem="pjD-t8-Vgy" secondAttribute="trailing" constant="80" id="ZOc-I1-AIc"/>
+                                            <constraint firstItem="bkp-b4-bdj" firstAttribute="centerX" secondItem="vvr-dW-7Yn" secondAttribute="centerX" id="bBc-hP-Ne2"/>
+                                            <constraint firstAttribute="trailing" secondItem="10O-SW-vCC" secondAttribute="trailing" constant="80" id="hhA-R9-MTb"/>
+                                            <constraint firstItem="10O-SW-vCC" firstAttribute="centerX" secondItem="vvr-dW-7Yn" secondAttribute="centerX" id="sav-h8-rT1"/>
+                                            <constraint firstItem="pjD-t8-Vgy" firstAttribute="top" secondItem="vvr-dW-7Yn" secondAttribute="top" constant="110" id="uHa-1e-ogL"/>
+                                            <constraint firstItem="bkp-b4-bdj" firstAttribute="leading" secondItem="vvr-dW-7Yn" secondAttribute="leading" constant="30" id="xh7-HP-uTU"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="vvr-dW-7Yn" firstAttribute="top" secondItem="j1k-hp-kof" secondAttribute="top" constant="-88" id="1mF-jE-dic"/>
-                                    <constraint firstAttribute="bottom" secondItem="vvr-dW-7Yn" secondAttribute="bottom" id="fBm-LH-nAu"/>
+                                    <constraint firstItem="vvr-dW-7Yn" firstAttribute="top" secondItem="j1k-hp-kof" secondAttribute="top" constant="-114" id="1mF-jE-dic"/>
+                                    <constraint firstAttribute="bottom" secondItem="vvr-dW-7Yn" secondAttribute="bottom" constant="-17" id="fBm-LH-nAu"/>
                                     <constraint firstItem="vvr-dW-7Yn" firstAttribute="leading" secondItem="j1k-hp-kof" secondAttribute="leading" id="fbR-SR-hXK"/>
                                     <constraint firstAttribute="trailing" secondItem="vvr-dW-7Yn" secondAttribute="trailing" id="hgx-yh-Vds"/>
                                     <constraint firstItem="vvr-dW-7Yn" firstAttribute="centerX" secondItem="j1k-hp-kof" secondAttribute="centerX" id="rIa-cK-5bz"/>
@@ -2918,7 +3022,7 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                         <viewLayoutGuide key="safeArea" id="Mj6-44-4Dc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="j1k-hp-kof" secondAttribute="bottom" constant="-31" id="1H5-Qn-GwE"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="j1k-hp-kof" secondAttribute="bottom" constant="-93" id="1H5-Qn-GwE"/>
                             <constraint firstItem="j1k-hp-kof" firstAttribute="leading" secondItem="8qZ-Lt-5eA" secondAttribute="leading" id="7E1-Dt-BtY"/>
                             <constraint firstItem="j1k-hp-kof" firstAttribute="top" secondItem="Mj6-44-4Dc" secondAttribute="top" constant="31" id="koI-LQ-XKe"/>
                             <constraint firstAttribute="trailing" secondItem="j1k-hp-kof" secondAttribute="trailing" id="qZN-Zd-4Ek"/>
@@ -3261,28 +3365,37 @@ infectious?</string>
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HS-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="8jh-ZZ-z43">
-                                <rect key="frame" x="0.0" y="88" width="428" height="334"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HS-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="8jh-ZZ-z43">
+                                <rect key="frame" x="0.0" y="88" width="430" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Eih-6y-Z1g"/>
+                                    <constraint firstAttribute="width" constant="430" id="JPg-mS-fXi"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMG-CZ-cYg">
-                                <rect key="frame" x="37" y="455" width="354" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMG-CZ-cYg">
+                                <rect key="frame" x="20" y="490" width="390" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="WI8-AP-TwS"/>
+                                    <constraint firstAttribute="width" constant="390" id="YAw-Ck-e5C"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Before Entering a private facility, you need to take a health screening quiz to determine your eligibility to enter the premises. Please tap below to start. </string>
                                         <attributes>
                                             <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfq-yD-0vo">
-                                <rect key="frame" x="109" y="587" width="210" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfq-yD-0vo">
+                                <rect key="frame" x="80" y="690" width="270" height="80"/>
                                 <color key="backgroundColor" red="0.0" green="0.29019607843137252" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="e3G-tS-EOf"/>
+                                    <constraint firstAttribute="width" constant="270" id="j3M-YW-25w"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Start the quiz">
                                     <color key="baseBackgroundColor" red="0.0" green="0.29019607843137252" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -3294,6 +3407,22 @@ infectious?</string>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="o7c-Ln-JXJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tfq-yD-0vo" firstAttribute="leading" secondItem="o7c-Ln-JXJ" secondAttribute="leading" constant="80" id="7Ry-ys-7Cn"/>
+                            <constraint firstItem="8jh-ZZ-z43" firstAttribute="top" secondItem="o7c-Ln-JXJ" secondAttribute="top" id="Axl-1n-aHg"/>
+                            <constraint firstItem="8jh-ZZ-z43" firstAttribute="leading" secondItem="vlT-mY-Z80" secondAttribute="leading" id="Dg5-3f-AeK"/>
+                            <constraint firstItem="NMG-CZ-cYg" firstAttribute="top" secondItem="8jh-ZZ-z43" secondAttribute="bottom" constant="102" id="Hf2-Yd-Hbr"/>
+                            <constraint firstItem="o7c-Ln-JXJ" firstAttribute="bottom" secondItem="tfq-yD-0vo" secondAttribute="bottom" constant="73" id="Jse-xV-SgB"/>
+                            <constraint firstItem="NMG-CZ-cYg" firstAttribute="centerX" secondItem="vlT-mY-Z80" secondAttribute="centerX" id="UL2-cS-zPQ"/>
+                            <constraint firstItem="tfq-yD-0vo" firstAttribute="top" secondItem="NMG-CZ-cYg" secondAttribute="bottom" constant="100" id="a9s-8D-PDO"/>
+                            <constraint firstItem="tfq-yD-0vo" firstAttribute="top" secondItem="NMG-CZ-cYg" secondAttribute="bottom" constant="100" id="b4r-Mr-fdU"/>
+                            <constraint firstItem="NMG-CZ-cYg" firstAttribute="leading" secondItem="vlT-mY-Z80" secondAttribute="leading" constant="20" id="j6d-Ro-nt8"/>
+                            <constraint firstAttribute="trailing" secondItem="NMG-CZ-cYg" secondAttribute="trailing" constant="20" id="lhO-yg-wmj"/>
+                            <constraint firstItem="o7c-Ln-JXJ" firstAttribute="trailing" secondItem="tfq-yD-0vo" secondAttribute="trailing" constant="80" id="mhd-bO-mVS"/>
+                            <constraint firstAttribute="trailing" secondItem="8jh-ZZ-z43" secondAttribute="trailing" id="pq6-DX-zO3"/>
+                            <constraint firstItem="8jh-ZZ-z43" firstAttribute="centerX" secondItem="vlT-mY-Z80" secondAttribute="centerX" id="tzE-Ic-79N"/>
+                            <constraint firstItem="tfq-yD-0vo" firstAttribute="centerX" secondItem="vlT-mY-Z80" secondAttribute="centerX" id="zf1-WQ-nax"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3ZW-km-gao"/>
                 </viewController>
