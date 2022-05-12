@@ -3390,7 +3390,7 @@ infectious?</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfq-yD-0vo">
-                                <rect key="frame" x="80" y="690" width="270" height="80"/>
+                                <rect key="frame" x="80" y="690" width="268" height="80"/>
                                 <color key="backgroundColor" red="0.0" green="0.29019607843137252" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="e3G-tS-EOf"/>
