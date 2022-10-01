@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NaH-l6-HDc">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NaH-l6-HDc">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController storyboardIdentifier="logIn" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HMA-M6-Rx2" customClass="LogInViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zj1-nX-Pau">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xn7-Dt-P0I">
-                                <rect key="frame" x="50" y="456" width="328" height="40"/>
+                                <rect key="frame" x="50" y="374" width="290" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="328" id="iLW-v2-mhT"/>
                                     <constraint firstAttribute="height" constant="40" id="wjX-6j-GZk"/>
@@ -26,7 +26,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wEE-MA-BWS">
-                                <rect key="frame" x="50" y="538" width="328" height="40"/>
+                                <rect key="frame" x="50" y="456" width="290" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="KI9-TP-XYK"/>
                                     <constraint firstAttribute="width" constant="328" id="NBh-fh-3uS"/>
@@ -35,7 +35,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type your login credentials above." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANF-8w-yP7">
-                                <rect key="frame" x="50" y="673" width="328" height="30"/>
+                                <rect key="frame" x="50" y="591" width="290" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="piG-cl-5Hm"/>
                                     <constraint firstAttribute="width" constant="328" id="zfo-PA-03w"/>
@@ -45,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyV-ZG-lYW">
-                                <rect key="frame" x="53" y="756.66666666666663" width="322" height="31"/>
+                                <rect key="frame" x="53" y="674.66666666666663" width="284" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="XWd-qC-CBu"/>
                                     <constraint firstAttribute="width" constant="322" id="c7X-pK-KDb"/>
@@ -59,7 +59,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYn-K1-5H3">
-                                <rect key="frame" x="150" y="620" width="128" height="35"/>
+                                <rect key="frame" x="150" y="538" width="90" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="D6h-X5-ARB"/>
                                     <constraint firstAttribute="width" constant="128" id="s4Z-sJ-MNk"/>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgf-6l-LZl">
-                                <rect key="frame" x="120" y="807" width="188" height="31"/>
+                                <rect key="frame" x="120" y="725" width="150" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="188" id="JAy-OX-Weg"/>
                                     <constraint firstAttribute="height" constant="31" id="Jvg-2O-Fzc"/>
@@ -87,7 +87,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All About Vaxx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu0-qy-Ftd">
-                                <rect key="frame" x="100" y="402" width="228" height="40"/>
+                                <rect key="frame" x="100" y="320" width="190" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="72t-gQ-oZB"/>
                                     <constraint firstAttribute="width" constant="228" id="iPq-xV-iR0"/>
@@ -97,7 +97,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lqG-zn-GiY">
-                                <rect key="frame" x="85" y="109" width="258" height="250"/>
+                                <rect key="frame" x="85" y="109" width="258" height="168"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="UVa-WQ-qcB"/>
                                     <constraint firstAttribute="width" constant="258" id="d9c-94-2Iy"/>
@@ -163,23 +163,34 @@
             <objects>
                 <viewController storyboardIdentifier="signUp" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yJR-oB-NUb" customClass="SignUpViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yVX-mK-B4Z">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rhs-cG-kqc">
-                                <rect key="frame" x="75" y="446" width="278" height="34"/>
+                                <rect key="frame" x="57" y="448" width="278" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bfY-vb-OtP">
-                                <rect key="frame" x="75" y="528" width="278" height="34"/>
+                                <rect key="frame" x="57" y="526" width="278" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="O0h-JD-ewS">
+                                <rect key="frame" x="2" y="128" width="388" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All About Vaxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlC-Bq-mBs">
+                                <rect key="frame" x="112" y="387" width="169" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YoL-gW-nPG">
-                                <rect key="frame" x="148" y="623" width="132" height="31"/>
+                                <rect key="frame" x="130" y="621" width="132" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign Up">
@@ -189,17 +200,6 @@
                                     <action selector="signUpTapped:" destination="yJR-oB-NUb" eventType="touchUpInside" id="pg3-08-8Xy"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="O0h-JD-ewS">
-                                <rect key="frame" x="20" y="122" width="388" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All About Vaxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlC-Bq-mBs">
-                                <rect key="frame" x="130" y="385" width="169" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IzJ-T8-dN5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -219,24 +219,35 @@
             <objects>
                 <viewController id="RFk-N9-9Xn" customClass="passwordResetViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xsI-wA-5tU">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Put you email address below and a password reset email will be sent to you." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzR-yL-5es">
-                                <rect key="frame" x="56" y="378" width="316" height="186"/>
+                                <rect key="frame" x="38" y="370" width="316" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l6P-vN-Z0q">
-                                <rect key="frame" x="86" y="551" width="257" height="34"/>
+                                <rect key="frame" x="68" y="541" width="257" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="osT-DI-uiy">
+                                <rect key="frame" x="2" y="116" width="388" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All About Vaxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFc-j0-Zxo">
+                                <rect key="frame" x="111" y="370" width="169" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYR-ty-cv9">
-                                <rect key="frame" x="140" y="641" width="148" height="31"/>
+                                <rect key="frame" x="132" y="631" width="148" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Send Email">
@@ -246,17 +257,6 @@
                                     <action selector="sendEmailTaped:" destination="RFk-N9-9Xn" eventType="touchUpInside" id="Gax-EP-Yob"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="osT-DI-uiy">
-                                <rect key="frame" x="20" y="112" width="388" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All About Vaxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFc-j0-Zxo">
-                                <rect key="frame" x="130" y="378" width="169" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HaZ-xY-Sq6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1040,7 +1040,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="di5-q1-AdN">
-                                <rect key="frame" x="0.0" y="88" width="428" height="4804"/>
+                                <rect key="frame" x="0.0" y="44" width="428" height="4848"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wj2-vt-6rh">
                                         <rect key="frame" x="0.0" y="0.0" width="420" height="5000"/>
@@ -1940,11 +1940,11 @@ Nasal: congestion or sneezing
             <objects>
                 <viewController id="ahr-SZ-TIm" customClass="LibraryViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rv2-jQ-GPD">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBm-vO-7zj">
-                                <rect key="frame" x="37" y="458" width="355" height="60"/>
+                                <rect key="frame" x="19" y="442" width="355" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
@@ -1962,7 +1962,7 @@ Nasal: congestion or sneezing
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsp-MT-xgL">
-                                <rect key="frame" x="37" y="646" width="355" height="60"/>
+                                <rect key="frame" x="19" y="614" width="355" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Meningitis">
@@ -1973,7 +1973,7 @@ Nasal: congestion or sneezing
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvT-Oo-gqv">
-                                <rect key="frame" x="37" y="553" width="355" height="60"/>
+                                <rect key="frame" x="19" y="529" width="355" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="MERS">
@@ -1987,17 +1987,6 @@ Nasal: congestion or sneezing
                                 <rect key="frame" x="0.0" y="88" width="428" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuX-56-2x7">
-                                <rect key="frame" x="37" y="740" width="355" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="SARS">
-                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="XiP-4E-oW5" kind="show" id="4ZD-Qz-s6I"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GV4-fC-Bvu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2016,7 +2005,7 @@ Nasal: congestion or sneezing
             <objects>
                 <viewController id="aRl-8k-4nI" customClass="AboutUsViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f3A-0K-1HS">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cok-H0-CWl">
@@ -2030,7 +2019,7 @@ Nasal: congestion or sneezing
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name: Abir Das" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="56G-gS-VXO">
-                                <rect key="frame" x="42" y="266" width="117" height="31"/>
+                                <rect key="frame" x="42" y="256" width="117" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2038,11 +2027,11 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Derrick_PIC" translatesAutoresizingMaskIntoConstraints="NO" id="jLy-C1-ee7">
-                                <rect key="frame" x="247" y="88" width="161" height="164"/>
+                                <rect key="frame" x="213" y="88" width="161" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name: Derrick Duller" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kx5-8v-nvl">
-                                <rect key="frame" x="247" y="266" width="161" height="31"/>
+                                <rect key="frame" x="213" y="256" width="161" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2050,7 +2039,7 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Major: Computer Engineering" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6lr-rJ-QoL">
-                                <rect key="frame" x="3" y="295" width="195" height="31"/>
+                                <rect key="frame" x="3" y="279" width="195" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2058,7 +2047,7 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Major: Computer Engineering" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LqM-V5-rrf">
-                                <rect key="frame" x="230" y="295" width="195" height="31"/>
+                                <rect key="frame" x="196" y="279" width="195" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2066,11 +2055,11 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kaniz_Pic" translatesAutoresizingMaskIntoConstraints="NO" id="PLJ-JV-jrI">
-                                <rect key="frame" x="20" y="334" width="161" height="164"/>
+                                <rect key="frame" x="20" y="318" width="161" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name: Kaniz Fatema" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Swb-AO-qlB">
-                                <rect key="frame" x="20" y="506" width="161" height="37"/>
+                                <rect key="frame" x="20" y="482" width="161" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2078,27 +2067,23 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Major: Computer Engineering" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4R8-Dk-Iqo">
-                                <rect key="frame" x="3" y="536" width="195" height="31"/>
+                                <rect key="frame" x="3" y="509" width="195" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="279579008_754378245724005_4853043415969621329_n" translatesAutoresizingMaskIntoConstraints="NO" id="pNa-Rx-taj">
-                                <rect key="frame" x="247" y="334" width="161" height="164"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="haneul" translatesAutoresizingMaskIntoConstraints="NO" id="pNa-Rx-taj">
+                                <rect key="frame" x="213" y="318" width="161" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Derrick_PIC" translatesAutoresizingMaskIntoConstraints="NO" id="Efn-P0-3me">
-                                <rect key="frame" x="20" y="575" width="161" height="164"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Derrick_PIC" translatesAutoresizingMaskIntoConstraints="NO" id="eUY-8J-mjj">
-                                <rect key="frame" x="247" y="575" width="161" height="164"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanzida" translatesAutoresizingMaskIntoConstraints="NO" id="Efn-P0-3me">
+                                <rect key="frame" x="20" y="535" width="161" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name: Sanzida Kaniz" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pfy-c6-MYt">
-                                <rect key="frame" x="20" y="747" width="161" height="37"/>
+                                <rect key="frame" x="20" y="707" width="161" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2106,7 +2091,7 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Major: Computer Science" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aFu-Rn-D7R">
-                                <rect key="frame" x="3" y="775" width="195" height="31"/>
+                                <rect key="frame" x="10" y="730" width="195" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2114,7 +2099,7 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name: Pritom Faisal" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UJK-JM-3hB">
-                                <rect key="frame" x="247" y="747" width="161" height="37"/>
+                                <rect key="frame" x="213" y="707" width="161" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2122,7 +2107,7 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name: Haneul Jang" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJ7-Cx-vVF">
-                                <rect key="frame" x="247" y="506" width="161" height="37"/>
+                                <rect key="frame" x="213" y="480" width="161" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2130,7 +2115,7 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Major: Computer Engineering" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CLq-Qm-at7">
-                                <rect key="frame" x="230" y="536" width="195" height="31"/>
+                                <rect key="frame" x="196" y="508" width="195" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2138,13 +2123,17 @@ Nasal: congestion or sneezing
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Major: Computer Engineering" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hgJ-Ql-iC5">
-                                <rect key="frame" x="230" y="775" width="195" height="31"/>
+                                <rect key="frame" x="206" y="730" width="195" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pritom" translatesAutoresizingMaskIntoConstraints="NO" id="eUY-8J-mjj">
+                                <rect key="frame" x="213" y="535" width="161" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xg0-gT-iFL"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2172,7 +2161,7 @@ Nasal: congestion or sneezing
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nsS-Ff-9tC">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <navigationBarAppearance key="scrollEdgeAppearance"/>
                     </navigationBar>
@@ -2192,7 +2181,7 @@ Nasal: congestion or sneezing
             <objects>
                 <viewController id="LUs-Tm-YtJ" customClass="NeewsFeedViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TqF-ch-kDc">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="755"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="673"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="KAO-3W-Njf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2211,33 +2200,22 @@ Nasal: congestion or sneezing
             <objects>
                 <viewController id="PbZ-kP-1JS" customClass="uploadingViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hhA-iK-OuA">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter name of vaccination" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YAm-vJ-dHE">
-                                <rect key="frame" x="76" y="190" width="251" height="34"/>
+                                <rect key="frame" x="70" y="188" width="251" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View your vaccination records here:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0s-K7-yMN">
-                                <rect key="frame" x="66" y="624" width="271" height="21"/>
+                                <rect key="frame" x="60" y="620" width="271" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sG1-XP-hYv">
-                                <rect key="frame" x="130" y="684" width="159" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="View">
-                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="xKx-ZI-GL9" kind="show" id="mDh-6u-bYo"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TpT-Ic-snn">
                                 <rect key="frame" x="188" y="318" width="42" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2246,21 +2224,21 @@ Nasal: congestion or sneezing
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upload Status:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH9-DD-fs8">
-                                <rect key="frame" x="76" y="458" width="251" height="95"/>
+                                <rect key="frame" x="70" y="458" width="251" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter the following information then choose what format of document to upload (images and pdfs only):" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpi-W7-WSh">
-                                <rect key="frame" x="66" y="98" width="297" height="64"/>
+                                <rect key="frame" x="53" y="88" width="297" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zs4-CE-lIy">
-                                <rect key="frame" x="76" y="376" width="131" height="34"/>
+                                <rect key="frame" x="66" y="363" width="131" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="photo" catalog="system" title="Image">
@@ -2271,19 +2249,19 @@ Nasal: congestion or sneezing
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter date administered" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s2d-8F-q3j">
-                                <rect key="frame" x="76" y="254" width="251" height="34"/>
+                                <rect key="frame" x="70" y="248" width="251" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter clinic that administered" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ruc-4L-Dv5">
-                                <rect key="frame" x="76" y="318" width="251" height="34"/>
+                                <rect key="frame" x="76" y="306" width="251" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEK-Pa-EXg">
-                                <rect key="frame" x="215" y="375" width="131" height="34"/>
+                                <rect key="frame" x="206" y="363" width="131" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="camera" catalog="system" title="Camera">
@@ -2294,7 +2272,7 @@ Nasal: congestion or sneezing
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRe-Ws-Eub">
-                                <rect key="frame" x="144" y="419" width="131" height="31"/>
+                                <rect key="frame" x="130" y="407" width="131" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="paperclip" catalog="system" title="PDF">
@@ -2302,6 +2280,17 @@ Nasal: congestion or sneezing
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="documenTUploadTapped:" destination="PbZ-kP-1JS" eventType="touchUpInside" id="5ZG-cb-IrJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sG1-XP-hYv">
+                                <rect key="frame" x="122" y="681" width="159" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="View">
+                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xKx-ZI-GL9" kind="show" id="mDh-6u-bYo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2327,18 +2316,18 @@ Nasal: congestion or sneezing
             <objects>
                 <viewController id="xKx-ZI-GL9" customClass="recordsViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FQX-sk-7Uz">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="VnN-qk-bF9">
-                                <rect key="frame" x="0.0" y="148" width="428" height="778"/>
+                                <rect key="frame" x="0.0" y="148" width="390" height="696"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="167" id="4bS-70-6IJ" customClass="vaccRecordTableViewCell" customModule="AllAboutVaxx" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="167"/>
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="167"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4bS-70-6IJ" id="z3y-ri-l5J" customClass="vaccRecordTableViewCell" customModule="AllAboutVaxx" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="428" height="167"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="167"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFG-Dd-jP1">
@@ -2421,7 +2410,7 @@ Nasal: congestion or sneezing
                 <navigationController id="jB5-6v-FDi" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="map" catalog="system" id="Qjm-9k-elN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Op4-GF-nEc">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -2437,52 +2426,52 @@ Nasal: congestion or sneezing
             <objects>
                 <viewController id="yCv-UO-PIs" customClass="clinicListViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hbw-h9-ppJ">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JuK-ja-MEe">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="270" id="8hI-Zd-w7j" customClass="clinicCellTableViewCell" customModule="AllAboutVaxx" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="270"/>
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="270"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8hI-Zd-w7j" id="sJd-K1-Lok">
-                                            <rect key="frame" x="0.0" y="0.0" width="428" height="270"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="270"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvf-dL-wxk">
-                                                    <rect key="frame" x="20" y="11" width="388" height="24"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="din-eD-3g2">
-                                                    <rect key="frame" x="20" y="37" width="388" height="21"/>
+                                                    <rect key="frame" x="20" y="43" width="388" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d12-bu-qKg">
-                                                    <rect key="frame" x="20" y="57" width="388" height="21"/>
+                                                    <rect key="frame" x="20" y="66" width="388" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJd-c3-hEU">
-                                                    <rect key="frame" x="20" y="79" width="388" height="21"/>
+                                                    <rect key="frame" x="20" y="95" width="388" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Xk-Cw-zEi">
-                                                    <rect key="frame" x="20" y="101" width="388" height="21"/>
+                                                    <rect key="frame" x="20" y="124" width="388" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvf-dL-wxk">
+                                                    <rect key="frame" x="20" y="0.0" width="388" height="47"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -2522,18 +2511,18 @@ Nasal: congestion or sneezing
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="19F-DQ-RyJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4851.8691588785041" y="-897.40820734341264"/>
+            <point key="canvasLocation" x="4850.7692307692305" y="-897.86729857819898"/>
         </scene>
         <!--Source To Destination Map View Controller-->
         <scene sceneID="YI6-eO-Tcc">
             <objects>
                 <viewController storyboardIdentifier="map" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QTx-Gv-p8K" customClass="sourceToDestinationMapViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dgc-mV-AbK">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="TeN-O6-ySp">
-                                <rect key="frame" x="0.0" y="88" width="428" height="838"/>
+                                <rect key="frame" x="0.0" y="88" width="390" height="756"/>
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tCc-1m-77X"/>
@@ -2877,11 +2866,11 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
             <objects>
                 <viewController id="9WB-Y0-GSv" customClass="HealthScreeningVC" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yHo-5D-bqX">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mj7-La-IqJ">
-                                <rect key="frame" x="50" y="148" width="328" height="300"/>
+                                <rect key="frame" x="50" y="148" width="328" height="20.333333333333343"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="328" id="F4r-SH-4Er"/>
                                     <constraint firstAttribute="height" constant="300" id="SaX-fQ-dVq"/>
@@ -2891,7 +2880,7 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCK-o2-x5t" userLabel="2">
-                                <rect key="frame" x="80" y="628" width="268" height="60"/>
+                                <rect key="frame" x="80" y="348.33333333333331" width="268" height="60"/>
                                 <accessibility key="accessibilityConfiguration" label="2"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="268" id="BBK-nV-Vcr"/>
@@ -2906,7 +2895,7 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfH-V9-Mvf" userLabel="1">
-                                <rect key="frame" x="80" y="548" width="268" height="60"/>
+                                <rect key="frame" x="80" y="268.33333333333331" width="268" height="60"/>
                                 <accessibility key="accessibilityConfiguration" label="1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="268" id="9mX-Ew-5mT"/>
@@ -3045,26 +3034,15 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
             <objects>
                 <viewController id="Ib3-ht-W6A" customClass="FAQsViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hVN-oy-VPM">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljv-93-aZJ">
-                                <rect key="frame" x="116" y="557" width="200" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Common Vaccine FAQS">
-                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="E1G-Sq-nuK" kind="show" id="gOf-Js-Yux"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FAQ-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="QXC-Hr-aOE">
                                 <rect key="frame" x="0.0" y="104" width="428" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iev-My-Wnv">
-                                <rect key="frame" x="116" y="473" width="200" height="55"/>
+                                <rect key="frame" x="95" y="471" width="200" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="COVID - 19 FAQS">
@@ -3072,6 +3050,17 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="KTL-cX-Yca" kind="show" id="3ys-z5-y9Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljv-93-aZJ">
+                                <rect key="frame" x="95" y="555" width="200" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Common Vaccine FAQS">
+                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="E1G-Sq-nuK" kind="show" id="gOf-Js-Yux"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3362,18 +3351,18 @@ infectious?</string>
             <objects>
                 <viewController storyboardIdentifier="healthScreening" title="Healthscreening " useStoryboardIdentifierAsRestorationIdentifier="YES" id="orl-CA-Azr" customClass="HealthScreen" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vlT-mY-Z80">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HS-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="8jh-ZZ-z43">
-                                <rect key="frame" x="0.0" y="88" width="430" height="300"/>
+                                <rect key="frame" x="0.0" y="88" width="430" height="218"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="Eih-6y-Z1g"/>
                                     <constraint firstAttribute="width" constant="430" id="JPg-mS-fXi"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMG-CZ-cYg">
-                                <rect key="frame" x="20" y="490" width="390" height="100"/>
+                                <rect key="frame" x="20" y="408" width="390" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="WI8-AP-TwS"/>
                                     <constraint firstAttribute="width" constant="390" id="YAw-Ck-e5C"/>
@@ -3390,7 +3379,7 @@ infectious?</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfq-yD-0vo">
-                                <rect key="frame" x="80" y="690" width="268" height="80"/>
+                                <rect key="frame" x="80" y="608" width="230" height="80"/>
                                 <color key="backgroundColor" red="0.0" green="0.29019607843137252" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="e3G-tS-EOf"/>
@@ -3436,7 +3425,7 @@ infectious?</string>
                 <navigationController id="YUF-Sr-2TS" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="checkmark.rectangle" catalog="system" id="mEG-c8-tOP"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IS4-LX-qo5">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3455,7 +3444,7 @@ infectious?</string>
                         <inset key="largeContentSizeImageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0cX-Gg-QZV">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3472,7 +3461,7 @@ infectious?</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NaH-l6-HDc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nel-DS-m6P">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -3518,7 +3507,7 @@ infectious?</string>
                         <color key="badgeColor" systemColor="linkColor"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="q5h-ab-pEO">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3534,30 +3523,11 @@ infectious?</string>
             <objects>
                 <viewController id="XLX-it-R9f" customClass="InformationViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rNf-fc-uia">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCu-S7-KSm">
-                                <rect key="frame" x="115" y="542" width="200" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="questionmark.circle" catalog="system">
-                                    <attributedString key="attributedSubtitle">
-                                        <fragment content=" FAQs">
-                                            <attributes>
-                                                <color key="NSColor" red="0.99285408885208604" green="0.99285408885208604" blue="0.99285408885208604" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="18" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Ib3-ht-W6A" kind="show" id="h2M-S2-qR3"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rW-n5-f0i">
-                                <rect key="frame" x="115" y="635" width="200" height="65"/>
+                                <rect key="frame" x="95" y="563" width="200" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="person.3" catalog="system">
@@ -3575,7 +3545,7 @@ infectious?</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-Rx-dzT">
-                                <rect key="frame" x="115" y="450" width="200" height="65"/>
+                                <rect key="frame" x="95" y="403" width="200" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="books.vertical" catalog="system" title="">
@@ -3593,11 +3563,11 @@ infectious?</string>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Information.png" translatesAutoresizingMaskIntoConstraints="NO" id="TJL-af-NY8">
-                                <rect key="frame" x="0.0" y="99" width="428" height="334"/>
+                                <rect key="frame" x="0.0" y="88" width="428" height="307"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xO0-fZ-t4d">
-                                <rect key="frame" x="114" y="723" width="200" height="65"/>
+                                <rect key="frame" x="95" y="648" width="200" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="exclamationmark.circle" catalog="system" title="">
@@ -3614,6 +3584,25 @@ infectious?</string>
                                     <action selector="LogoutTapped:" destination="XLX-it-R9f" eventType="touchUpInside" id="n4w-Kh-u47"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCu-S7-KSm">
+                                <rect key="frame" x="95" y="482" width="200" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="questionmark.circle" catalog="system">
+                                    <attributedString key="attributedSubtitle">
+                                        <fragment content=" FAQs">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99285408885208604" green="0.99285408885208604" blue="0.99285408885208604" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.0" green="0.2901960784" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Ib3-ht-W6A" kind="show" id="h2M-S2-qR3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hHG-uQ-n8g"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -3622,7 +3611,7 @@ infectious?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FMn-nq-sih" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1232.2429906542056" y="-1740.3887688984883"/>
+            <point key="canvasLocation" x="1230.7692307692307" y="-1740.995260663507"/>
         </scene>
     </scenes>
     <resources>
@@ -3633,12 +3622,15 @@ infectious?</string>
         <image name="Information.png" width="450" height="450"/>
         <image name="Kaniz_Pic" width="3939" height="5909"/>
         <image name="Library.png" width="450" height="450"/>
+        <image name="Pritom" width="614" height="921"/>
+        <image name="Sanzida" width="784" height="919"/>
         <image name="books.vertical" catalog="system" width="128" height="107"/>
         <image name="books.vertical.fill" catalog="system" width="128" height="109"/>
         <image name="camera" catalog="system" width="128" height="94"/>
         <image name="checkmark.rectangle" catalog="system" width="128" height="93"/>
         <image name="doc" catalog="system" width="115" height="128"/>
         <image name="exclamationmark.circle" catalog="system" width="128" height="121"/>
+        <image name="haneul" width="690" height="920"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="logo-1" width="1200" height="1200"/>
         <image name="map" catalog="system" width="128" height="110"/>
